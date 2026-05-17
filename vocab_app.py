@@ -121,17 +121,36 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# ── JavaScript for Pronunciation ────────────────────────────────────────────────
-def speak_js(word: str) -> str:
-    """Generate HTML/JS for a speaker button that pronounces the word."""
-    return f"""
-    <span class="speak-btn" onclick="
-        var u = new SpeechSynthesisUtterance('{word}');
-        u.lang = 'en-US'; u.rate = 0.85;
-        window.speechSynthesis.cancel();
-        window.speechSynthesis.speak(u);
-    " title='点击发音'>🔊</span>
+# ── Pronunciation Helper ───────────────────────────────────────────────────────
+def speak_button(word: str, key_suffix: str = ""):
+    """Render a clickable pronunciation button using browser SpeechSynthesis API.
+
+    Uses st.components.v1.html to bypass Streamlit's HTML sanitization
+    which strips inline onclick handlers from st.markdown output.
     """
+    clean_word = word.replace("'", "\\'").replace('"', '\\"')
+    st.components.v1.html(f"""
+    <button onclick="
+        (function() {{
+            var u = new SpeechSynthesisUtterance('{clean_word}');
+            u.lang = 'en-US';
+            u.rate = 0.85;
+            speechSynthesis.cancel();
+            speechSynthesis.speak(u);
+        }})();
+    " style="
+        padding: 6px 16px;
+        border: none;
+        background: #667eea;
+        color: #fff;
+        border-radius: 8px;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background 0.2s;
+    " onmouseover="this.style.background='#764ba2'"
+       onmouseout="this.style.background='#667eea'"
+    >🔊 发音</button>
+    """, height=45)
 
 
 # ── Session State Init ─────────────────────────────────────────────────────────
@@ -255,30 +274,14 @@ with tab1:
             with st.expander(f"**{idx}. {w['word']}**  {w['phonetic']}  —  {w['meaning'][:40]}", expanded=False):
                 col1, col2 = st.columns([3, 1])
                 with col1:
-                    st.markdown(f"### {w['word']}  {speak_js(w['word'])}", unsafe_allow_html=True)
+                    st.markdown(f"### {w['word']}")
                     st.markdown(f"**音标**: {w['phonetic']}")
                     st.markdown(f"**释义**: {w['meaning']}")
                     if w.get("collocations"):
                         st.markdown(f"**搭配**: {w['collocations']}")
                     st.caption(f"级别: {w['level'].upper()} | 词频: {w['frequency']}")
                 with col2:
-                    # Re-pronounce button
-                    st.button("🔊 发音", key=f"tab1_speak_{w['word']}_{idx}",
-                              on_click=lambda ww=w['word']: None,
-                              help="点击发音")
-                    # Speak via html
-                    st.components.v1.html(f"""
-                    <button onclick="
-                        var u = new SpeechSynthesisUtterance('{w['word']}');
-                        u.lang = 'en-US'; u.rate = 0.85;
-                        window.speechSynthesis.cancel();
-                        window.speechSynthesis.speak(u);
-                    " style="
-                        width: 100%; padding: 10px; border: none;
-                        background: #667eea; color: #fff; border-radius: 8px;
-                        font-size: 16px; cursor: pointer;
-                    ">🔊 听发音</button>
-                    """, height=50)
+                    speak_button(w['word'], key_suffix=f"browse_{idx}")
 
 # =============================================================
 # TAB 2: Flashcard Mode
@@ -354,14 +357,7 @@ with tab2:
             btn_col1, btn_col2, btn_col3, btn_col4 = st.columns(4)
 
             with btn_col1:
-                if st.button("🔊 发音", key="fc_speak", use_container_width=True):
-                    st.components.v1.html(f"""
-                    <script>
-                        var u = new SpeechSynthesisUtterance('{w["word"]}');
-                        u.lang = 'en-US'; u.rate = 0.85;
-                        window.speechSynthesis.speak(u);
-                    </script>
-                    """, height=0)
+                speak_button(w['word'], key_suffix="fc")
 
             with btn_col2:
                 if not show_cn:
@@ -477,14 +473,7 @@ with tab3:
                         > 你的答案: {a['user_choice']}
                         > 正确答案: {a['correct_answer']}
                         """)
-                        st.button("🔊 发音", key=f"quiz_review_speak_{i}",
-                                  on_click=lambda ww=w['word']: st.components.v1.html(f"""
-                                  <script>
-                                      var u = new SpeechSynthesisUtterance('{ww}');
-                                      u.lang = 'en-US'; u.rate = 0.85;
-                                      window.speechSynthesis.speak(u);
-                                  </script>
-                                  """, height=0))
+                        speak_button(w['word'], key_suffix=f"quiz_review_{i}")
 
                 if st.button("🔄 重新测验", use_container_width=True):
                     st.session_state.quiz_started = False
@@ -505,8 +494,12 @@ with tab3:
                 # Question
                 st.markdown("---")
                 if quiz_type == "看英文选中文":
-                    st.markdown(f"## {w['word']}  {speak_js(w['word'])}", unsafe_allow_html=True)
-                    st.markdown(f"*{w['phonetic']}*")
+                    col_q, col_s = st.columns([4, 1])
+                    with col_q:
+                        st.markdown(f"## {w['word']}")
+                        st.markdown(f"*{w['phonetic']}*")
+                    with col_s:
+                        speak_button(w['word'], key_suffix=f"quiz_q_{cur}")
                     st.markdown("### 请选择正确的中文释义:")
                 else:
                     st.markdown(f"## {w['meaning']}")
@@ -561,17 +554,14 @@ with tab4:
         for i, w in enumerate(daily):
             with cols[i % 3]:
                 st.markdown(f"""
-                <div class="word-card" onclick="
-                    var u = new SpeechSynthesisUtterance('{w['word']}');
-                    u.lang = 'en-US'; u.rate = 0.85;
-                    window.speechSynthesis.speak(u);
-                ">
-                    <div class="word">{w['word']} <span style="font-size:16px;cursor:pointer;">🔊</span></div>
+                <div class="word-card">
+                    <div class="word">{w['word']}</div>
                     <div class="phonetic">{w['phonetic']}</div>
                     <div class="meaning">{w['meaning'][:60]}</div>
                     {f'<div style="font-size:13px;opacity:0.7;margin-top:4px;">{w["collocations"]}</div>' if w.get('collocations') else ''}
                 </div>
                 """, unsafe_allow_html=True)
+                speak_button(w['word'], key_suffix=f"daily_{i}")
 
         # Yesterday's words
         st.divider()
@@ -584,16 +574,12 @@ with tab4:
         for i, w in enumerate(yesterday_words):
             with review_cols[i % 5]:
                 st.markdown(f"""
-                <div style="text-align:center;padding:8px;cursor:pointer;"
-                     onclick="
-                    var u = new SpeechSynthesisUtterance('{w['word']}');
-                    u.lang = 'en-US'; u.rate = 0.85;
-                    window.speechSynthesis.speak(u);
-                ">
-                    <div style="font-weight:600;">{w['word']} 🔊</div>
+                <div style="text-align:center;padding:8px;">
+                    <div style="font-weight:600;">{w['word']}</div>
                     <div style="font-size:12px;color:#888;">{w['meaning'][:20]}</div>
                 </div>
                 """, unsafe_allow_html=True)
+                speak_button(w['word'], key_suffix=f"yesterday_{i}")
 
 # ── Footer ─────────────────────────────────────────────────────────────────────
 st.divider()
