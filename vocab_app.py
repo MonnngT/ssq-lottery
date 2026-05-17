@@ -177,7 +177,7 @@ if "quiz_tested_words" not in st.session_state:
 if "quiz_history" not in st.session_state:
     st.session_state.quiz_history = []
 if "browse_shuffle" not in st.session_state:
-    st.session_state.browse_shuffle = False
+    st.session_state.browse_shuffle = True  # default to shuffle mode
 
 
 # ── Sidebar ────────────────────────────────────────────────────────────────────
@@ -416,14 +416,18 @@ with tab3:
                 for j, record in enumerate(reversed(st.session_state.quiz_history)):
                     rcol1, rcol2, rcol3 = st.columns([2, 1, 1])
                     with rcol1:
-                        st.markdown(f"**{len(st.session_state.quiz_history) - j}. {record['date']}** — {record['quiz_type']}")
-                        st.markdown(f"得分: {record['score']}/{record['total']} ({record['percentage']}%)")
+                        completed_str = "" if record.get("completed", True) else " ⚠️未完成"
+                        planned = record.get("planned_total", record["total"])
+                        st.markdown(f"**{len(st.session_state.quiz_history) - j}. {record['date']}** — {record['quiz_type']}{completed_str}")
+                        if record.get("completed", True):
+                            st.markdown(f"得分: {record['score']}/{record['total']} ({record['percentage']}%)")
+                        else:
+                            st.markdown(f"得分: {record['score']}/{record['total']} (计划{planned}题, {record['percentage']}%)")
                     with rcol2:
                         correct_count = sum(1 for a in record['answers'] if a['correct'])
                         wrong_count = len(record['answers']) - correct_count
                         st.markdown(f"✅ {correct_count}  |  ❌ {wrong_count}")
                     with rcol3:
-                        # Show wrong words preview
                         wrongs = [a for a in record['answers'] if not a['correct']]
                         if wrongs:
                             wrong_words = ", ".join(a['word']['word'] for a in wrongs[:5])
@@ -433,7 +437,7 @@ with tab3:
         quiz_col1, quiz_col2 = st.columns([2, 1])
 
         with quiz_col1:
-            quiz_type = st.selectbox("题型", ["看英文选中文", "看中文选英文"], key="quiz_type")
+            quiz_type = st.selectbox("题型", ["听音选中文", "看中文选英文"], key="quiz_type")
 
         with quiz_col2:
             quiz_count = st.selectbox("题目数量", [10, 20, 30], index=0)
@@ -476,7 +480,7 @@ with tab3:
                     wrongs = [x for x in words if x['word'] != w['word']]
                     wrong_pool = random.sample(wrongs, min(3, len(wrongs)))
 
-                    if quiz_type == "看英文选中文":
+                    if quiz_type == "听音选中文":
                         correct = w['meaning']
                         options = [correct] + [x['meaning'] for x in wrong_pool]
                     else:
@@ -515,8 +519,10 @@ with tab3:
                     "date": date.today().isoformat(),
                     "score": score,
                     "total": total_q,
+                    "planned_total": total_q,
                     "percentage": round(pct, 1),
                     "quiz_type": quiz_type,
+                    "completed": True,
                     "answers": st.session_state.quiz_answers.copy(),
                 }
 
@@ -581,17 +587,58 @@ with tab3:
 
                 # Question
                 st.markdown("---")
-                if quiz_type == "看英文选中文":
+                if quiz_type == "听音选中文":
+                    # Hidden word — shows on hover, auto-pronounce via JS
+                    clean_word = w['word'].replace("'", "\\'")
+                    st.components.v1.html(f"""
+                    <style>
+                        .word-hidden {{
+                            display: inline-block;
+                            background: #1a1a2e;
+                            color: #1a1a2e;
+                            padding: 8px 20px;
+                            border-radius: 12px;
+                            font-size: 32px;
+                            font-weight: 700;
+                            cursor: pointer;
+                            user-select: none;
+                            transition: color 0.15s;
+                            border: 2px dashed #555;
+                        }}
+                        .word-hidden:hover {{ color: #f0c040 !important; border-color: #f0c040; }}
+                        .word-hint {{ font-size: 14px; color: #888; margin-top: 8px; }}
+                    </style>
+                    <div style="text-align:center;">
+                        <span class="word-hidden" id="hidden-word">{clean_word}</span>
+                        <div class="word-hint">👆 鼠标悬停显示单词</div>
+                    </div>
+                    <script>
+                        (function() {{
+                            var u = new SpeechSynthesisUtterance('{clean_word}');
+                            u.lang = 'en-US'; u.rate = 0.8;
+                            speechSynthesis.cancel();
+                            speechSynthesis.speak(u);
+                            // Speak again on click
+                            document.getElementById('hidden-word').addEventListener('click', function() {{
+                                speechSynthesis.cancel();
+                                speechSynthesis.speak(new SpeechSynthesisUtterance('{clean_word}'));
+                            }});
+                        }})();
+                    </script>
+                    """, height=120)
+                    st.caption(f"🔊 单词已自动发音 — 点击单词可重新发音")
+                    st.markdown("### 请选择正确的中文释义:")
+                elif quiz_type == "看中文选英文":
+                    st.markdown(f"## {w['meaning']}")
+                    st.markdown("### 请选择正确的英文单词:")
+                else:
+                    # fallback for any other type
                     col_q, col_s = st.columns([4, 1])
                     with col_q:
                         st.markdown(f"## {w['word']}")
-                        st.markdown(f"*{w['phonetic']}*")
                     with col_s:
                         speak_button(w['word'], key_suffix=f"quiz_q_{cur}")
                     st.markdown("### 请选择正确的中文释义:")
-                else:
-                    st.markdown(f"## {w['meaning']}")
-                    st.markdown("### 请选择正确的英文单词:")
 
                 # Options
                 for i, opt in enumerate(q["options"]):
@@ -611,14 +658,17 @@ with tab3:
                 # Quit button
                 st.divider()
                 if st.button("⏹ 结束测验", key="quiz_quit"):
-                    # Save partial result to history
-                    if st.session_state.quiz_answers and not st.session_state.get("_quiz_result_saved", False):
+                    # Save partial result to history (marked as incomplete)
+                    answered = len(st.session_state.quiz_answers)
+                    if answered > 0 and not st.session_state.get("_quiz_result_saved", False):
                         partial_result = {
                             "date": date.today().isoformat(),
                             "score": st.session_state.quiz_score,
-                            "total": len(st.session_state.quiz_answers),
-                            "percentage": round(st.session_state.quiz_score / max(1, len(st.session_state.quiz_answers)) * 100, 1),
+                            "total": answered,
+                            "planned_total": len(qs),  # the original planned count
+                            "percentage": round(st.session_state.quiz_score / max(1, answered) * 100, 1),
                             "quiz_type": quiz_type,
+                            "completed": False,  # mark as incomplete
                             "answers": st.session_state.quiz_answers.copy(),
                         }
                         st.session_state.quiz_history.append(partial_result)
