@@ -1,0 +1,4002 @@
+[
+  {
+    "word": "a",
+    "phonetic": "/eɪ/",
+    "meaning": "art. 一(个)；每一(个)",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "abandon",
+    "phonetic": "/əˈbændən/",
+    "meaning": "vt. 放弃；遗弃；抛弃",
+    "collocations": "abandon oneself to",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "ability",
+    "phonetic": "/əˈbɪləti/",
+    "meaning": "n. 能力；才能",
+    "collocations": "to the best of one's ability",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "able",
+    "phonetic": "/ˈeɪbl/",
+    "meaning": "adj. 能够的；有能力的",
+    "collocations": "be able to",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "about",
+    "phonetic": "/əˈbaʊt/",
+    "meaning": "prep. 关于；大约",
+    "collocations": "be about to",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "above",
+    "phonetic": "/əˈbʌv/",
+    "meaning": "prep. 在…上面；高于",
+    "collocations": "above all",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "abroad",
+    "phonetic": "/əˈbrɔːd/",
+    "meaning": "adv. 在国外；到国外",
+    "collocations": "go abroad",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "absence",
+    "phonetic": "/ˈæbsəns/",
+    "meaning": "n. 缺席；缺乏；不在",
+    "collocations": "in the absence of",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "absolutely",
+    "phonetic": "/ˌæbsəˈluːtli/",
+    "meaning": "adv. 绝对地；完全地",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "absorb",
+    "phonetic": "/əbˈzɔːb/",
+    "meaning": "vt. 吸收；吸引",
+    "collocations": "be absorbed in",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "abuse",
+    "phonetic": "/əˈbjuːz/",
+    "meaning": "n./vt. 滥用；虐待；辱骂",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "academic",
+    "phonetic": "/ˌækəˈdemɪk/",
+    "meaning": "adj. 学术的；学院的",
+    "collocations": "academic year",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "accept",
+    "phonetic": "/əkˈsept/",
+    "meaning": "v. 接受；承认；认可",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "access",
+    "phonetic": "/ˈækses/",
+    "meaning": "n. 通道；进入；使用权",
+    "collocations": "have access to",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "accident",
+    "phonetic": "/ˈæksɪdənt/",
+    "meaning": "n. 事故；意外",
+    "collocations": "by accident",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "accompany",
+    "phonetic": "/əˈkʌmpəni/",
+    "meaning": "vt. 陪伴；伴随",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "accomplish",
+    "phonetic": "/əˈkʌmplɪʃ/",
+    "meaning": "vt. 完成；实现",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "account",
+    "phonetic": "/əˈkaʊnt/",
+    "meaning": "n. 账户；账目；描述",
+    "collocations": "take into account",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "accurate",
+    "phonetic": "/ˈækjərət/",
+    "meaning": "adj. 准确的；精确的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "achieve",
+    "phonetic": "/əˈtʃiːv/",
+    "meaning": "vt. 实现；达到",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "achievement",
+    "phonetic": "/əˈtʃiːvmənt/",
+    "meaning": "n. 成就；成绩",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "acquire",
+    "phonetic": "/əˈkwaɪə(r)/",
+    "meaning": "vt. 获得；习得",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "across",
+    "phonetic": "/əˈkrɒs/",
+    "meaning": "prep./adv. 穿过；横过；在对面",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "act",
+    "phonetic": "/ækt/",
+    "meaning": "v. 行动；表演 n. 行为；法案",
+    "collocations": "act as",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "action",
+    "phonetic": "/ˈækʃn/",
+    "meaning": "n. 行动；行为",
+    "collocations": "take action",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "active",
+    "phonetic": "/ˈæktɪv/",
+    "meaning": "adj. 积极的；活跃的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "activity",
+    "phonetic": "/ækˈtɪvəti/",
+    "meaning": "n. 活动；活跃",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "actor",
+    "phonetic": "/ˈæktə(r)/",
+    "meaning": "n. 男演员",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "actress",
+    "phonetic": "/ˈæktrəs/",
+    "meaning": "n. 女演员",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "actual",
+    "phonetic": "/ˈæktʃuəl/",
+    "meaning": "adj. 实际的；真实的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "adapt",
+    "phonetic": "/əˈdæpt/",
+    "meaning": "v. 适应；改编",
+    "collocations": "adapt to",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "add",
+    "phonetic": "/æd/",
+    "meaning": "v. 增加；添加",
+    "collocations": "add up to",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "addition",
+    "phonetic": "/əˈdɪʃn/",
+    "meaning": "n. 加；加法；增加",
+    "collocations": "in addition to",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "additional",
+    "phonetic": "/əˈdɪʃənl/",
+    "meaning": "adj. 附加的；额外的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "address",
+    "phonetic": "/əˈdres/",
+    "meaning": "n. 地址；演说 vt. 处理",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "adequate",
+    "phonetic": "/ˈædɪkwət/",
+    "meaning": "adj. 足够的；充分的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "adjust",
+    "phonetic": "/əˈdʒʌst/",
+    "meaning": "v. 调整；调节；适应",
+    "collocations": "adjust to",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "admire",
+    "phonetic": "/ədˈmaɪə(r)/",
+    "meaning": "vt. 钦佩；赞赏；羡慕",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "admit",
+    "phonetic": "/ədˈmɪt/",
+    "meaning": "v. 承认；准许进入",
+    "collocations": "admit doing",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "adopt",
+    "phonetic": "/əˈdɒpt/",
+    "meaning": "vt. 采用；采取；收养",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "adult",
+    "phonetic": "/ˈædʌlt/",
+    "meaning": "n. 成人 adj. 成年的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "advance",
+    "phonetic": "/ədˈvɑːns/",
+    "meaning": "v./n. 前进；进步；提前",
+    "collocations": "in advance",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "advanced",
+    "phonetic": "/ədˈvɑːnst/",
+    "meaning": "adj. 先进的；高级的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "advantage",
+    "phonetic": "/ədˈvɑːntɪdʒ/",
+    "meaning": "n. 优势；有利条件",
+    "collocations": "take advantage of",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "adventure",
+    "phonetic": "/ədˈventʃə(r)/",
+    "meaning": "n. 冒险；奇遇",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "advertisement",
+    "phonetic": "/ədˈvɜːtɪsmənt/",
+    "meaning": "n. 广告；公告",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "advice",
+    "phonetic": "/ədˈvaɪs/",
+    "meaning": "n. 忠告；建议",
+    "collocations": "take one's advice",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "advise",
+    "phonetic": "/ədˈvaɪz/",
+    "meaning": "vt. 劝告；建议",
+    "collocations": "advise sb to do",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "affair",
+    "phonetic": "/əˈfeə(r)/",
+    "meaning": "n. 事务；事件；私事",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "affect",
+    "phonetic": "/əˈfekt/",
+    "meaning": "vt. 影响；感动",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "afford",
+    "phonetic": "/əˈfɔːd/",
+    "meaning": "vt. 负担得起；提供",
+    "collocations": "can't afford",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "afraid",
+    "phonetic": "/əˈfreɪd/",
+    "meaning": "adj. 害怕的；担心的",
+    "collocations": "be afraid of",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "after",
+    "phonetic": "/ˈɑːftə(r)/",
+    "meaning": "prep./conj. 在…以后",
+    "collocations": "after all",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "afternoon",
+    "phonetic": "/ˌɑːftəˈnuːn/",
+    "meaning": "n. 下午",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "afterward",
+    "phonetic": "/ˈɑːftəwəd/",
+    "meaning": "adv. 以后；后来",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "again",
+    "phonetic": "/əˈɡen/",
+    "meaning": "adv. 又；再一次",
+    "collocations": "again and again",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "against",
+    "phonetic": "/əˈɡenst/",
+    "meaning": "prep. 反对；靠着",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "age",
+    "phonetic": "/eɪdʒ/",
+    "meaning": "n. 年龄；时代",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "agency",
+    "phonetic": "/ˈeɪdʒənsi/",
+    "meaning": "n. 代理处；机构",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "aggressive",
+    "phonetic": "/əˈɡresɪv/",
+    "meaning": "adj. 侵略的；好斗的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "ago",
+    "phonetic": "/əˈɡəʊ/",
+    "meaning": "adv. 以前",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "agree",
+    "phonetic": "/əˈɡriː/",
+    "meaning": "v. 同意；赞成",
+    "collocations": "agree with/to",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "agreement",
+    "phonetic": "/əˈɡriːmənt/",
+    "meaning": "n. 同意；协议",
+    "collocations": "reach an agreement",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "agriculture",
+    "phonetic": "/ˈæɡrɪkʌltʃə(r)/",
+    "meaning": "n. 农业；农学",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "ahead",
+    "phonetic": "/əˈhed/",
+    "meaning": "adv. 在前面；向前",
+    "collocations": "ahead of",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "aid",
+    "phonetic": "/eɪd/",
+    "meaning": "n./vt. 帮助；援助",
+    "collocations": "first aid",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "aim",
+    "phonetic": "/eɪm/",
+    "meaning": "n. 目标 v. 瞄准；旨在",
+    "collocations": "aim at",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "air",
+    "phonetic": "/eə(r)/",
+    "meaning": "n. 空气；大气",
+    "collocations": "by air",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "airline",
+    "phonetic": "/ˈeəlaɪn/",
+    "meaning": "n. 航空公司；航线",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "airport",
+    "phonetic": "/ˈeəpɔːt/",
+    "meaning": "n. 机场",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "alarm",
+    "phonetic": "/əˈlɑːm/",
+    "meaning": "n. 警报；闹钟 vt. 使惊恐",
+    "collocations": "alarm clock",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "alcohol",
+    "phonetic": "/ˈælkəhɒl/",
+    "meaning": "n. 酒精；酒",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "alive",
+    "phonetic": "/əˈlaɪv/",
+    "meaning": "adj. 活着的；有活力的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "all",
+    "phonetic": "/ɔːl/",
+    "meaning": "adj./pron./adv. 全部；都",
+    "collocations": "all over",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "allow",
+    "phonetic": "/əˈlaʊ/",
+    "meaning": "vt. 允许；准许",
+    "collocations": "allow sb to do",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "almost",
+    "phonetic": "/ˈɔːlməʊst/",
+    "meaning": "adv. 几乎；差不多",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "alone",
+    "phonetic": "/əˈləʊn/",
+    "meaning": "adj./adv. 单独的(地)",
+    "collocations": "let alone",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "along",
+    "phonetic": "/əˈlɒŋ/",
+    "meaning": "prep./adv. 沿着；向前",
+    "collocations": "along with",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "already",
+    "phonetic": "/ɔːlˈredi/",
+    "meaning": "adv. 已经",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "also",
+    "phonetic": "/ˈɔːlsəʊ/",
+    "meaning": "adv. 也；同样",
+    "collocations": "not only...but also",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "alternative",
+    "phonetic": "/ɔːlˈtɜːnətɪv/",
+    "meaning": "n. 替代品 adj. 替代的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "although",
+    "phonetic": "/ɔːlˈðəʊ/",
+    "meaning": "conj. 虽然；尽管",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "altogether",
+    "phonetic": "/ˌɔːltəˈɡeðə(r)/",
+    "meaning": "adv. 完全；总共",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "always",
+    "phonetic": "/ˈɔːlweɪz/",
+    "meaning": "adv. 总是；永远",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "ambition",
+    "phonetic": "/æmˈbɪʃn/",
+    "meaning": "n. 雄心；野心",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "among",
+    "phonetic": "/əˈmʌŋ/",
+    "meaning": "prep. 在…之中",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "amount",
+    "phonetic": "/əˈmaʊnt/",
+    "meaning": "n. 数量；总额 vi. 合计",
+    "collocations": "a large amount of",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "analyse",
+    "phonetic": "/ˈænəlaɪz/",
+    "meaning": "vt. 分析",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "analysis",
+    "phonetic": "/əˈnæləsɪs/",
+    "meaning": "n. 分析",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "ancient",
+    "phonetic": "/ˈeɪnʃənt/",
+    "meaning": "adj. 古代的；古老的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "angry",
+    "phonetic": "/ˈæŋɡri/",
+    "meaning": "adj. 愤怒的",
+    "collocations": "be angry at",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "animal",
+    "phonetic": "/ˈænɪml/",
+    "meaning": "n. 动物",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "announce",
+    "phonetic": "/əˈnaʊns/",
+    "meaning": "vt. 宣布；宣告",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "annoy",
+    "phonetic": "/əˈnɔɪ/",
+    "meaning": "vt. 使恼怒；打扰",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "annual",
+    "phonetic": "/ˈænjuəl/",
+    "meaning": "adj. 每年的；年度的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "another",
+    "phonetic": "/əˈnʌðə(r)/",
+    "meaning": "adj./pron. 另一个",
+    "collocations": "one after another",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "answer",
+    "phonetic": "/ˈɑːnsə(r)/",
+    "meaning": "n./v. 回答；答案",
+    "collocations": "answer for",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "anxiety",
+    "phonetic": "/æŋˈzaɪəti/",
+    "meaning": "n. 焦虑；忧虑",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "anxious",
+    "phonetic": "/ˈæŋkʃəs/",
+    "meaning": "adj. 焦虑的；渴望的",
+    "collocations": "be anxious about",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "any",
+    "phonetic": "/ˈeni/",
+    "meaning": "adj./pron. 任何",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "anybody",
+    "phonetic": "/ˈenibɒdi/",
+    "meaning": "pron. 任何人",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "anyone",
+    "phonetic": "/ˈeniwʌn/",
+    "meaning": "pron. 任何人",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "anything",
+    "phonetic": "/ˈeniθɪŋ/",
+    "meaning": "pron. 任何事物",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "anyway",
+    "phonetic": "/ˈeniweɪ/",
+    "meaning": "adv. 无论如何",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "anywhere",
+    "phonetic": "/ˈeniweə(r)/",
+    "meaning": "adv. 任何地方",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "apart",
+    "phonetic": "/əˈpɑːt/",
+    "meaning": "adv. 分离；相隔",
+    "collocations": "apart from",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "apartment",
+    "phonetic": "/əˈpɑːtmənt/",
+    "meaning": "n. 公寓",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "apologize",
+    "phonetic": "/əˈpɒlədʒaɪz/",
+    "meaning": "vi. 道歉",
+    "collocations": "apologize to sb for",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "appeal",
+    "phonetic": "/əˈpiːl/",
+    "meaning": "vi./n. 呼吁；吸引；上诉",
+    "collocations": "appeal to",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "appear",
+    "phonetic": "/əˈpɪə(r)/",
+    "meaning": "vi. 出现；似乎",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "appearance",
+    "phonetic": "/əˈpɪərəns/",
+    "meaning": "n. 外貌；出现",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "apple",
+    "phonetic": "/ˈæpl/",
+    "meaning": "n. 苹果",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "application",
+    "phonetic": "/ˌæplɪˈkeɪʃn/",
+    "meaning": "n. 申请；应用；应用程序",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "apply",
+    "phonetic": "/əˈplaɪ/",
+    "meaning": "v. 申请；应用",
+    "collocations": "apply for",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "appointment",
+    "phonetic": "/əˈpɔɪntmənt/",
+    "meaning": "n. 任命；约会",
+    "collocations": "make an appointment",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "appreciate",
+    "phonetic": "/əˈpriːʃieɪt/",
+    "meaning": "vt. 欣赏；感激",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "approach",
+    "phonetic": "/əˈprəʊtʃ/",
+    "meaning": "v./n. 接近；方法",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "appropriate",
+    "phonetic": "/əˈprəʊpriət/",
+    "meaning": "adj. 适当的；合适的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "approve",
+    "phonetic": "/əˈpruːv/",
+    "meaning": "v. 批准；赞同",
+    "collocations": "approve of",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "April",
+    "phonetic": "/ˈeɪprəl/",
+    "meaning": "n. 四月",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "architecture",
+    "phonetic": "/ˈɑːkɪtektʃə(r)/",
+    "meaning": "n. 建筑学；建筑",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "area",
+    "phonetic": "/ˈeəriə/",
+    "meaning": "n. 面积；地区；领域",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "argue",
+    "phonetic": "/ˈɑːɡjuː/",
+    "meaning": "v. 争论；论证",
+    "collocations": "argue about",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "argument",
+    "phonetic": "/ˈɑːɡjumənt/",
+    "meaning": "n. 争论；论据",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "arise",
+    "phonetic": "/əˈraɪz/",
+    "meaning": "vi. 出现；产生",
+    "collocations": "arise from",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "arm",
+    "phonetic": "/ɑːm/",
+    "meaning": "n. 手臂；武器",
+    "collocations": "arm in arm",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "army",
+    "phonetic": "/ˈɑːmi/",
+    "meaning": "n. 军队",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "around",
+    "phonetic": "/əˈraʊnd/",
+    "meaning": "prep./adv. 在…周围；大约",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "arrange",
+    "phonetic": "/əˈreɪndʒ/",
+    "meaning": "v. 安排；整理",
+    "collocations": "arrange for",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "arrive",
+    "phonetic": "/əˈraɪv/",
+    "meaning": "vi. 到达",
+    "collocations": "arrive at/in",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "art",
+    "phonetic": "/ɑːt/",
+    "meaning": "n. 艺术；美术",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "article",
+    "phonetic": "/ˈɑːtɪkl/",
+    "meaning": "n. 文章；物品；冠词",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "artificial",
+    "phonetic": "/ˌɑːtɪˈfɪʃl/",
+    "meaning": "adj. 人工的；人造的",
+    "collocations": "artificial intelligence",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "artist",
+    "phonetic": "/ˈɑːtɪst/",
+    "meaning": "n. 艺术家",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "as",
+    "phonetic": "/æz/",
+    "meaning": "conj./prep. 作为；因为；当…时",
+    "collocations": "as...as",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "ask",
+    "phonetic": "/ɑːsk/",
+    "meaning": "v. 问；要求",
+    "collocations": "ask for",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "asleep",
+    "phonetic": "/əˈsliːp/",
+    "meaning": "adj. 睡着的",
+    "collocations": "fall asleep",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "aspect",
+    "phonetic": "/ˈæspekt/",
+    "meaning": "n. 方面；层面",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "assess",
+    "phonetic": "/əˈses/",
+    "meaning": "vt. 评估；评定",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "asset",
+    "phonetic": "/ˈæset/",
+    "meaning": "n. 资产；优点",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "assist",
+    "phonetic": "/əˈsɪst/",
+    "meaning": "v. 帮助；协助",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "assistant",
+    "phonetic": "/əˈsɪstənt/",
+    "meaning": "n. 助手；助理",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "associate",
+    "phonetic": "/əˈsəʊʃieɪt/",
+    "meaning": "vt. 联系 n. 同事",
+    "collocations": "associate with",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "association",
+    "phonetic": "/əˌsəʊʃiˈeɪʃn/",
+    "meaning": "n. 协会；联系",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "assume",
+    "phonetic": "/əˈsjuːm/",
+    "meaning": "vt. 假设；承担",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "athlete",
+    "phonetic": "/ˈæθliːt/",
+    "meaning": "n. 运动员",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "atmosphere",
+    "phonetic": "/ˈætməsfɪə(r)/",
+    "meaning": "n. 大气；气氛",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "attach",
+    "phonetic": "/əˈtætʃ/",
+    "meaning": "vt. 系；贴；附加",
+    "collocations": "be attached to",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "attack",
+    "phonetic": "/əˈtæk/",
+    "meaning": "n./v. 攻击；袭击",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "attempt",
+    "phonetic": "/əˈtempt/",
+    "meaning": "n./vt. 尝试；企图",
+    "collocations": "make an attempt",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "attend",
+    "phonetic": "/əˈtend/",
+    "meaning": "v. 参加；出席；照料",
+    "collocations": "attend to",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "attention",
+    "phonetic": "/əˈtenʃn/",
+    "meaning": "n. 注意；注意力",
+    "collocations": "pay attention to",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "attitude",
+    "phonetic": "/ˈætɪtjuːd/",
+    "meaning": "n. 态度；看法",
+    "collocations": "attitude towards",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "attract",
+    "phonetic": "/əˈtrækt/",
+    "meaning": "vt. 吸引",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "attractive",
+    "phonetic": "/əˈtræktɪv/",
+    "meaning": "adj. 有吸引力的；迷人的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "audience",
+    "phonetic": "/ˈɔːdiəns/",
+    "meaning": "n. 观众；听众",
+    "collocations": "(target audience)",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "August",
+    "phonetic": "/ˈɔːɡəst/",
+    "meaning": "n. 八月",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "aunt",
+    "phonetic": "/ɑːnt/",
+    "meaning": "n. 姑妈；姨妈；伯母",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "author",
+    "phonetic": "/ˈɔːθə(r)/",
+    "meaning": "n. 作者；作家",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "authority",
+    "phonetic": "/ɔːˈθɒrəti/",
+    "meaning": "n. 权威；当局；权力",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "automatic",
+    "phonetic": "/ˌɔːtəˈmætɪk/",
+    "meaning": "adj. 自动的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "autumn",
+    "phonetic": "/ˈɔːtəm/",
+    "meaning": "n. 秋天",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "available",
+    "phonetic": "/əˈveɪləbl/",
+    "meaning": "adj. 可获得的；有空的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "average",
+    "phonetic": "/ˈævərɪdʒ/",
+    "meaning": "n./adj. 平均(的)；普通",
+    "collocations": "on average",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "avoid",
+    "phonetic": "/əˈvɔɪd/",
+    "meaning": "vt. 避免；避开",
+    "collocations": "avoid doing",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "award",
+    "phonetic": "/əˈwɔːd/",
+    "meaning": "n. 奖；奖品 vt. 授予",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "aware",
+    "phonetic": "/əˈweə(r)/",
+    "meaning": "adj. 意识到的；知道的",
+    "collocations": "be aware of",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "away",
+    "phonetic": "/əˈweɪ/",
+    "meaning": "adv. 离开；远离",
+    "collocations": "right away",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "awful",
+    "phonetic": "/ˈɔːfl/",
+    "meaning": "adj. 可怕的；糟糕的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "baby",
+    "phonetic": "/ˈbeɪbi/",
+    "meaning": "n. 婴儿；宝贝",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "back",
+    "phonetic": "/bæk/",
+    "meaning": "n. 背部 adv. 回 adj. 后面的",
+    "collocations": "back and forth",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "background",
+    "phonetic": "/ˈbækɡraʊnd/",
+    "meaning": "n. 背景；出身",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "bad",
+    "phonetic": "/bæd/",
+    "meaning": "adj. 坏的；糟糕的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "badly",
+    "phonetic": "/ˈbædli/",
+    "meaning": "adv. 坏地；非常",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "bag",
+    "phonetic": "/bæɡ/",
+    "meaning": "n. 包；袋",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "balance",
+    "phonetic": "/ˈbæləns/",
+    "meaning": "n. 平衡；余额 vt. 使平衡",
+    "collocations": "keep one's balance",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "ball",
+    "phonetic": "/bɔːl/",
+    "meaning": "n. 球；舞会",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "ban",
+    "phonetic": "/bæn/",
+    "meaning": "vt./n. 禁止；禁令",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "banana",
+    "phonetic": "/bəˈnɑːnə/",
+    "meaning": "n. 香蕉",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "band",
+    "phonetic": "/bænd/",
+    "meaning": "n. 乐队；带；波段",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "bank",
+    "phonetic": "/bæŋk/",
+    "meaning": "n. 银行；河岸",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "bar",
+    "phonetic": "/bɑː(r)/",
+    "meaning": "n. 酒吧；条；障碍 vt. 禁止",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "barrier",
+    "phonetic": "/ˈbæriə(r)/",
+    "meaning": "n. 障碍；屏障",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "base",
+    "phonetic": "/beɪs/",
+    "meaning": "n. 基础；基地 vt. 以…为基础",
+    "collocations": "be based on",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "basic",
+    "phonetic": "/ˈbeɪsɪk/",
+    "meaning": "adj. 基本的；基础的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "basically",
+    "phonetic": "/ˈbeɪsɪkli/",
+    "meaning": "adv. 基本上；主要地",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "basis",
+    "phonetic": "/ˈbeɪsɪs/",
+    "meaning": "n. 基础；根据",
+    "collocations": "on the basis of",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "basket",
+    "phonetic": "/ˈbɑːskɪt/",
+    "meaning": "n. 篮子",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "basketball",
+    "phonetic": "/ˈbɑːskɪtbɔːl/",
+    "meaning": "n. 篮球",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "bath",
+    "phonetic": "/bɑːθ/",
+    "meaning": "n. 沐浴；洗澡；浴缸",
+    "collocations": "take a bath",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "bathroom",
+    "phonetic": "/ˈbɑːθruːm/",
+    "meaning": "n. 浴室；卫生间",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "battery",
+    "phonetic": "/ˈbætəri/",
+    "meaning": "n. 电池；一组",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "battle",
+    "phonetic": "/ˈbætl/",
+    "meaning": "n. 战斗；战役 vi. 斗争",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "be",
+    "phonetic": "/biː/",
+    "meaning": "v. 是；存在；成为",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "beach",
+    "phonetic": "/biːtʃ/",
+    "meaning": "n. 海滩",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "bear",
+    "phonetic": "/beə(r)/",
+    "meaning": "vt. 忍受；承担 n. 熊",
+    "collocations": "bear in mind",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "beat",
+    "phonetic": "/biːt/",
+    "meaning": "v. 打；打败；跳动 n. 节拍",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "beautiful",
+    "phonetic": "/ˈbjuːtɪfl/",
+    "meaning": "adj. 美丽的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "beauty",
+    "phonetic": "/ˈbjuːti/",
+    "meaning": "n. 美丽；美人",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "because",
+    "phonetic": "/bɪˈkɒz/",
+    "meaning": "conj. 因为",
+    "collocations": "because of",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "become",
+    "phonetic": "/bɪˈkʌm/",
+    "meaning": "v. 变成；成为",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "bed",
+    "phonetic": "/bed/",
+    "meaning": "n. 床",
+    "collocations": "go to bed",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "beer",
+    "phonetic": "/bɪə(r)/",
+    "meaning": "n. 啤酒",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "before",
+    "phonetic": "/bɪˈfɔː(r)/",
+    "meaning": "prep./conj./adv. 在…以前",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "begin",
+    "phonetic": "/bɪˈɡɪn/",
+    "meaning": "v. 开始",
+    "collocations": "begin with",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "beginning",
+    "phonetic": "/bɪˈɡɪnɪŋ/",
+    "meaning": "n. 开始；开端",
+    "collocations": "at the beginning of",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "behalf",
+    "phonetic": "/bɪˈhɑːf/",
+    "meaning": "n. 利益；代表",
+    "collocations": "on behalf of",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "behave",
+    "phonetic": "/bɪˈheɪv/",
+    "meaning": "vi. 表现；举止",
+    "collocations": "behave oneself",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "behavior",
+    "phonetic": "/bɪˈheɪvjə(r)/",
+    "meaning": "n. 行为；举止",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "behind",
+    "phonetic": "/bɪˈhaɪnd/",
+    "meaning": "prep./adv. 在…后面",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "being",
+    "phonetic": "/ˈbiːɪŋ/",
+    "meaning": "n. 存在；生物；人",
+    "collocations": "come into being",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "belief",
+    "phonetic": "/bɪˈliːf/",
+    "meaning": "n. 信念；信仰；相信",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "believe",
+    "phonetic": "/bɪˈliːv/",
+    "meaning": "v. 相信；认为",
+    "collocations": "believe in",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "bell",
+    "phonetic": "/bel/",
+    "meaning": "n. 铃；钟",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "belong",
+    "phonetic": "/bɪˈlɒŋ/",
+    "meaning": "vi. 属于",
+    "collocations": "belong to",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "below",
+    "phonetic": "/bɪˈləʊ/",
+    "meaning": "prep./adv. 在…下面",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "beneficial",
+    "phonetic": "/ˌbenɪˈfɪʃl/",
+    "meaning": "adj. 有益的",
+    "collocations": "be beneficial to",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "benefit",
+    "phonetic": "/ˈbenɪfɪt/",
+    "meaning": "n. 利益；好处 v. 有益于",
+    "collocations": "benefit from",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "beside",
+    "phonetic": "/bɪˈsaɪd/",
+    "meaning": "prep. 在…旁边",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "besides",
+    "phonetic": "/bɪˈsaɪdz/",
+    "meaning": "prep./adv. 除…之外(还)",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "best",
+    "phonetic": "/best/",
+    "meaning": "adj./adv. 最好的",
+    "collocations": "make the best of",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "better",
+    "phonetic": "/ˈbetə(r)/",
+    "meaning": "adj./adv. 更好的",
+    "collocations": "had better",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "between",
+    "phonetic": "/bɪˈtwiːn/",
+    "meaning": "prep. 在(两者)之间",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "beyond",
+    "phonetic": "/bɪˈjɒnd/",
+    "meaning": "prep. 超越；在…那边",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "big",
+    "phonetic": "/bɪɡ/",
+    "meaning": "adj. 大的；重要的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "bill",
+    "phonetic": "/bɪl/",
+    "meaning": "n. 账单；法案；钞票",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "billion",
+    "phonetic": "/ˈbɪljən/",
+    "meaning": "n. 十亿",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "biology",
+    "phonetic": "/baɪˈɒlədʒi/",
+    "meaning": "n. 生物学",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "bird",
+    "phonetic": "/bɜːd/",
+    "meaning": "n. 鸟",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "birth",
+    "phonetic": "/bɜːθ/",
+    "meaning": "n. 出生；诞生",
+    "collocations": "give birth to",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "birthday",
+    "phonetic": "/ˈbɜːθdeɪ/",
+    "meaning": "n. 生日",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "bit",
+    "phonetic": "/bɪt/",
+    "meaning": "n. 一点儿；少量；比特",
+    "collocations": "a bit of",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "black",
+    "phonetic": "/blæk/",
+    "meaning": "adj./n. 黑色的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "blame",
+    "phonetic": "/bleɪm/",
+    "meaning": "vt./n. 责备；归咎",
+    "collocations": "blame sb for",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "blind",
+    "phonetic": "/blaɪnd/",
+    "meaning": "adj. 瞎的；盲目的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "block",
+    "phonetic": "/blɒk/",
+    "meaning": "n. 街区；块；障碍 vt. 阻挡",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "blood",
+    "phonetic": "/blʌd/",
+    "meaning": "n. 血；血液",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "blow",
+    "phonetic": "/bləʊ/",
+    "meaning": "v. 吹；爆炸 n. 打击",
+    "collocations": "blow up",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "blue",
+    "phonetic": "/bluː/",
+    "meaning": "adj./n. 蓝色的；蓝色；忧郁的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "board",
+    "phonetic": "/bɔːd/",
+    "meaning": "n. 板；董事会；膳食",
+    "collocations": "on board",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "boat",
+    "phonetic": "/bəʊt/",
+    "meaning": "n. 船",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "body",
+    "phonetic": "/ˈbɒdi/",
+    "meaning": "n. 身体；主体",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "bond",
+    "phonetic": "/bɒnd/",
+    "meaning": "n. 纽带；债券；结合",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "book",
+    "phonetic": "/bʊk/",
+    "meaning": "n. 书 vt. 预订",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "boost",
+    "phonetic": "/buːst/",
+    "meaning": "vt./n. 促进；提高",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "border",
+    "phonetic": "/ˈbɔːdə(r)/",
+    "meaning": "n. 边界；边境",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "boring",
+    "phonetic": "/ˈbɔːrɪŋ/",
+    "meaning": "adj. 无聊的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "born",
+    "phonetic": "/bɔːn/",
+    "meaning": "adj. 出生的；天生的",
+    "collocations": "be born",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "borrow",
+    "phonetic": "/ˈbɒrəʊ/",
+    "meaning": "vt. 借入；借用",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "boss",
+    "phonetic": "/bɒs/",
+    "meaning": "n. 老板；上司",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "both",
+    "phonetic": "/bəʊθ/",
+    "meaning": "adj./pron. 两者(都)",
+    "collocations": "both...and",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "bottle",
+    "phonetic": "/ˈbɒtl/",
+    "meaning": "n. 瓶子",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "bottom",
+    "phonetic": "/ˈbɒtəm/",
+    "meaning": "n. 底部；底端",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "bowl",
+    "phonetic": "/bəʊl/",
+    "meaning": "n. 碗",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "box",
+    "phonetic": "/bɒks/",
+    "meaning": "n. 箱子；盒子 v. 拳击",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "boy",
+    "phonetic": "/bɔɪ/",
+    "meaning": "n. 男孩",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "brain",
+    "phonetic": "/breɪn/",
+    "meaning": "n. 大脑；智力",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "branch",
+    "phonetic": "/brɑːntʃ/",
+    "meaning": "n. 树枝；分支；分部",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "brand",
+    "phonetic": "/brænd/",
+    "meaning": "n. 品牌；商标",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "brave",
+    "phonetic": "/breɪv/",
+    "meaning": "adj. 勇敢的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "bread",
+    "phonetic": "/bred/",
+    "meaning": "n. 面包",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "break",
+    "phonetic": "/breɪk/",
+    "meaning": "v. 打破；弄坏 n. 休息",
+    "collocations": "break down",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "breakfast",
+    "phonetic": "/ˈbrekfəst/",
+    "meaning": "n. 早餐",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "breath",
+    "phonetic": "/breθ/",
+    "meaning": "n. 呼吸；气息",
+    "collocations": "out of breath",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "bridge",
+    "phonetic": "/brɪdʒ/",
+    "meaning": "n. 桥；桥梁",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "brief",
+    "phonetic": "/briːf/",
+    "meaning": "adj. 简短的",
+    "collocations": "in brief",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "bright",
+    "phonetic": "/braɪt/",
+    "meaning": "adj. 明亮的；聪明的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "bring",
+    "phonetic": "/brɪŋ/",
+    "meaning": "vt. 带来；引起",
+    "collocations": "bring about",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "broad",
+    "phonetic": "/brɔːd/",
+    "meaning": "adj. 宽阔的；广泛的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "broadcast",
+    "phonetic": "/ˈbrɔːdkɑːst/",
+    "meaning": "v./n. 广播；播送",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "brother",
+    "phonetic": "/ˈbrʌðə(r)/",
+    "meaning": "n. 兄弟",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "brown",
+    "phonetic": "/braʊn/",
+    "meaning": "adj./n. 棕色的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "budget",
+    "phonetic": "/ˈbʌdʒɪt/",
+    "meaning": "n. 预算",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "build",
+    "phonetic": "/bɪld/",
+    "meaning": "vt. 建造；建立",
+    "collocations": "build up",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "building",
+    "phonetic": "/ˈbɪldɪŋ/",
+    "meaning": "n. 建筑；建筑物",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "burden",
+    "phonetic": "/ˈbɜːdn/",
+    "meaning": "n. 负担；重担",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "burn",
+    "phonetic": "/bɜːn/",
+    "meaning": "v. 燃烧；烧伤",
+    "collocations": "burn out",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "bus",
+    "phonetic": "/bʌs/",
+    "meaning": "n. 公共汽车",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "business",
+    "phonetic": "/ˈbɪznəs/",
+    "meaning": "n. 生意；商业；事务",
+    "collocations": "on business",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "busy",
+    "phonetic": "/ˈbɪzi/",
+    "meaning": "adj. 忙碌的",
+    "collocations": "be busy doing",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "but",
+    "phonetic": "/bʌt/",
+    "meaning": "conj. 但是 prep. 除了",
+    "collocations": "but for",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "button",
+    "phonetic": "/ˈbʌtn/",
+    "meaning": "n. 按钮；纽扣",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "buy",
+    "phonetic": "/baɪ/",
+    "meaning": "vt. 购买",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "by",
+    "phonetic": "/baɪ/",
+    "meaning": "prep./adv. 通过；在…旁；被",
+    "collocations": "by the way",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "cafe",
+    "phonetic": "/ˈkæfeɪ/",
+    "meaning": "n. 咖啡馆；小餐馆",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "cake",
+    "phonetic": "/keɪk/",
+    "meaning": "n. 蛋糕",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "calculate",
+    "phonetic": "/ˈkælkjuleɪt/",
+    "meaning": "vt. 计算；估计",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "call",
+    "phonetic": "/kɔːl/",
+    "meaning": "v. 叫；打电话；称呼",
+    "collocations": "call for",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "calm",
+    "phonetic": "/kɑːm/",
+    "meaning": "adj. 平静的；镇静的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "camera",
+    "phonetic": "/ˈkæmərə/",
+    "meaning": "n. 照相机；摄像机",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "camp",
+    "phonetic": "/kæmp/",
+    "meaning": "n. 营地 vi. 露营",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "campaign",
+    "phonetic": "/kæmˈpeɪn/",
+    "meaning": "n. 运动；战役；活动",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "campus",
+    "phonetic": "/ˈkæmpəs/",
+    "meaning": "n. 校园",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "can",
+    "phonetic": "/kæn/",
+    "meaning": "aux./v. 能；可以 n. 罐头",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "cancel",
+    "phonetic": "/ˈkænsl/",
+    "meaning": "vt. 取消；撤销",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "cancer",
+    "phonetic": "/ˈkænsə(r)/",
+    "meaning": "n. 癌症",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "candidate",
+    "phonetic": "/ˈkændɪdət/",
+    "meaning": "n. 候选人；应试者",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "capable",
+    "phonetic": "/ˈkeɪpəbl/",
+    "meaning": "adj. 有能力的",
+    "collocations": "be capable of",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "capacity",
+    "phonetic": "/kəˈpæsəti/",
+    "meaning": "n. 容量；能力；身份",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "capital",
+    "phonetic": "/ˈkæpɪtl/",
+    "meaning": "n. 首都；资本；大写字母",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "captain",
+    "phonetic": "/ˈkæptɪn/",
+    "meaning": "n. 船长；队长；上尉",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "capture",
+    "phonetic": "/ˈkæptʃə(r)/",
+    "meaning": "vt./n. 捕获；俘获",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "car",
+    "phonetic": "/kɑː(r)/",
+    "meaning": "n. 汽车",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "card",
+    "phonetic": "/kɑːd/",
+    "meaning": "n. 卡片；信用卡",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "care",
+    "phonetic": "/keə(r)/",
+    "meaning": "n./v. 关心；照顾；小心",
+    "collocations": "take care of",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "career",
+    "phonetic": "/kəˈrɪə(r)/",
+    "meaning": "n. 职业；生涯",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "careful",
+    "phonetic": "/ˈkeəfl/",
+    "meaning": "adj. 小心的；仔细的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "carry",
+    "phonetic": "/ˈkæri/",
+    "meaning": "vt. 携带；运送；搬运",
+    "collocations": "carry out 执行",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "case",
+    "phonetic": "/keɪs/",
+    "meaning": "n. 情况；案例；箱子",
+    "collocations": "in case 以防",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "cash",
+    "phonetic": "/kæʃ/",
+    "meaning": "n. 现金 vt. 兑现",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "cat",
+    "phonetic": "/kæt/",
+    "meaning": "n. 猫",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "catch",
+    "phonetic": "/kætʃ/",
+    "meaning": "vt. 抓住；赶上；感染",
+    "collocations": "catch up with 赶上",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "category",
+    "phonetic": "/ˈkætəɡəri/",
+    "meaning": "n. 种类；类别；范畴",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "cause",
+    "phonetic": "/kɔːz/",
+    "meaning": "n. 原因；事业 vt. 引起",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "celebrate",
+    "phonetic": "/ˈselɪbreɪt/",
+    "meaning": "v. 庆祝；赞美",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "cent",
+    "phonetic": "/sent/",
+    "meaning": "n. 分(货币)；百",
+    "collocations": "per cent 百分之",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "center",
+    "phonetic": "/ˈsentə(r)/",
+    "meaning": "n. 中心；中央",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "central",
+    "phonetic": "/ˈsentrəl/",
+    "meaning": "adj. 中心的；中央的；主要的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "century",
+    "phonetic": "/ˈsentʃəri/",
+    "meaning": "n. 世纪；百年",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "certain",
+    "phonetic": "/ˈsɜːtn/",
+    "meaning": "adj. 确定的；某个",
+    "collocations": "for certain 确定",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "certainly",
+    "phonetic": "/ˈsɜːtnli/",
+    "meaning": "adv. 当然；确定地",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "chain",
+    "phonetic": "/tʃeɪn/",
+    "meaning": "n. 链；链条；连锁",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "chair",
+    "phonetic": "/tʃeə(r)/",
+    "meaning": "n. 椅子",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "chairman",
+    "phonetic": "/ˈtʃeəmən/",
+    "meaning": "n. 主席；董事长",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "challenge",
+    "phonetic": "/ˈtʃælɪndʒ/",
+    "meaning": "n./vt. 挑战；质疑",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "champion",
+    "phonetic": "/ˈtʃæmpiən/",
+    "meaning": "n. 冠军；拥护者",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "chance",
+    "phonetic": "/tʃɑːns/",
+    "meaning": "n. 机会；可能性",
+    "collocations": "by chance 偶然",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "change",
+    "phonetic": "/tʃeɪndʒ/",
+    "meaning": "v./n. 改变；变化；零钱",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "channel",
+    "phonetic": "/ˈtʃænl/",
+    "meaning": "n. 频道；渠道；海峡",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "character",
+    "phonetic": "/ˈkærəktə(r)/",
+    "meaning": "n. 性格；角色；字符",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "characteristic",
+    "phonetic": "/ˌkærəktəˈrɪstɪk/",
+    "meaning": "n. 特征 adj. 特有的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "charge",
+    "phonetic": "/tʃɑːdʒ/",
+    "meaning": "v./n. 收费；指控；充电",
+    "collocations": "in charge of 负责",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "chart",
+    "phonetic": "/tʃɑːt/",
+    "meaning": "n. 图表；海图",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "cheap",
+    "phonetic": "/tʃiːp/",
+    "meaning": "adj. 便宜的；廉价的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "check",
+    "phonetic": "/tʃek/",
+    "meaning": "v./n. 检查；核对；支票",
+    "collocations": "check in 登记",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "cheer",
+    "phonetic": "/tʃɪə(r)/",
+    "meaning": "v./n. 欢呼；喝彩",
+    "collocations": "cheer up 振作起来",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "chemical",
+    "phonetic": "/ˈkemɪkl/",
+    "meaning": "adj. 化学的 n. 化学品",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "chemistry",
+    "phonetic": "/ˈkemɪstri/",
+    "meaning": "n. 化学",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "chicken",
+    "phonetic": "/ˈtʃɪkɪn/",
+    "meaning": "n. 小鸡；鸡肉",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "chief",
+    "phonetic": "/tʃiːf/",
+    "meaning": "adj. 主要的；首席的 n. 首领",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "child",
+    "phonetic": "/tʃaɪld/",
+    "meaning": "n. 小孩；儿童",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "chocolate",
+    "phonetic": "/ˈtʃɒklət/",
+    "meaning": "n. 巧克力",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "choice",
+    "phonetic": "/tʃɔɪs/",
+    "meaning": "n. 选择；选择权",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "choose",
+    "phonetic": "/tʃuːz/",
+    "meaning": "v. 选择；挑选",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "Christmas",
+    "phonetic": "/ˈkrɪsməs/",
+    "meaning": "n. 圣诞节",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "church",
+    "phonetic": "/tʃɜːtʃ/",
+    "meaning": "n. 教堂；教会",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "cinema",
+    "phonetic": "/ˈsɪnəmə/",
+    "meaning": "n. 电影院；电影",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "circle",
+    "phonetic": "/ˈsɜːkl/",
+    "meaning": "n. 圆；圈子 v. 环绕",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "circumstance",
+    "phonetic": "/ˈsɜːkəmstəns/",
+    "meaning": "n. 环境；情况；境遇",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "citizen",
+    "phonetic": "/ˈsɪtɪzn/",
+    "meaning": "n. 公民；市民",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "city",
+    "phonetic": "/ˈsɪti/",
+    "meaning": "n. 城市",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "claim",
+    "phonetic": "/kleɪm/",
+    "meaning": "vt./n. 声称；要求；索赔",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "class",
+    "phonetic": "/klɑːs/",
+    "meaning": "n. 班级；阶级；课",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "classic",
+    "phonetic": "/ˈklæsɪk/",
+    "meaning": "adj. 经典的 n. 名著",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "classmate",
+    "phonetic": "/ˈklɑːsmeɪt/",
+    "meaning": "n. 同学",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "classroom",
+    "phonetic": "/ˈklɑːsruːm/",
+    "meaning": "n. 教室",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "clean",
+    "phonetic": "/kliːn/",
+    "meaning": "adj. 干净的 vt. 打扫",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "clear",
+    "phonetic": "/klɪə(r)/",
+    "meaning": "adj. 清楚的 vt. 清除",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "clever",
+    "phonetic": "/ˈklevə(r)/",
+    "meaning": "adj. 聪明的；机灵的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "client",
+    "phonetic": "/ˈklaɪənt/",
+    "meaning": "n. 客户；委托人",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "climate",
+    "phonetic": "/ˈklaɪmət/",
+    "meaning": "n. 气候；风气",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "climb",
+    "phonetic": "/klaɪm/",
+    "meaning": "v./n. 攀登；爬",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "clock",
+    "phonetic": "/klɒk/",
+    "meaning": "n. 时钟",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "close",
+    "phonetic": "/kləʊz/",
+    "meaning": "v. 关；结束 adj. 近的；亲密的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "clothes",
+    "phonetic": "/kləʊðz/",
+    "meaning": "n. 衣服",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "cloud",
+    "phonetic": "/klaʊd/",
+    "meaning": "n. 云",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "club",
+    "phonetic": "/klʌb/",
+    "meaning": "n. 俱乐部；社团；球杆",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "coast",
+    "phonetic": "/kəʊst/",
+    "meaning": "n. 海岸；海滨",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "coat",
+    "phonetic": "/kəʊt/",
+    "meaning": "n. 外套；上衣；涂层",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "code",
+    "phonetic": "/kəʊd/",
+    "meaning": "n. 代码；密码；准则",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "coffee",
+    "phonetic": "/ˈkɒfi/",
+    "meaning": "n. 咖啡",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "coin",
+    "phonetic": "/kɔɪn/",
+    "meaning": "n. 硬币 vt. 创造(新词)",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "colleague",
+    "phonetic": "/ˈkɒliːɡ/",
+    "meaning": "n. 同事；同僚",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "collect",
+    "phonetic": "/kəˈlekt/",
+    "meaning": "v. 收集；采集",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "college",
+    "phonetic": "/ˈkɒlɪdʒ/",
+    "meaning": "n. 大学；学院",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "color",
+    "phonetic": "/ˈkʌlə(r)/",
+    "meaning": "n. 颜色",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "combine",
+    "phonetic": "/kəmˈbaɪn/",
+    "meaning": "v. 结合；联合",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "come",
+    "phonetic": "/kʌm/",
+    "meaning": "vi. 来；来到；发生",
+    "collocations": "come up with 想出",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "comfort",
+    "phonetic": "/ˈkʌmfət/",
+    "meaning": "n./vt. 舒适；安慰",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "comfortable",
+    "phonetic": "/ˈkʌmftəbl/",
+    "meaning": "adj. 舒适的；舒服的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "command",
+    "phonetic": "/kəˈmɑːnd/",
+    "meaning": "v./n. 命令；指挥；掌握",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "comment",
+    "phonetic": "/ˈkɒment/",
+    "meaning": "n./v. 评论；意见",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "commercial",
+    "phonetic": "/kəˈmɜːʃl/",
+    "meaning": "adj. 商业的；营利的 n. 广告",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "commit",
+    "phonetic": "/kəˈmɪt/",
+    "meaning": "vt. 犯(罪)；承诺；致力于",
+    "collocations": "commit to 致力于",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "commitment",
+    "phonetic": "/kəˈmɪtmənt/",
+    "meaning": "n. 承诺；投入；奉献",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "committee",
+    "phonetic": "/kəˈmɪti/",
+    "meaning": "n. 委员会",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "common",
+    "phonetic": "/ˈkɒmən/",
+    "meaning": "adj. 普通的；共同的",
+    "collocations": "in common 共同",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "communicate",
+    "phonetic": "/kəˈmjuːnɪkeɪt/",
+    "meaning": "v. 交流；沟通；传达",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "communication",
+    "phonetic": "/kəˌmjuːnɪˈkeɪʃn/",
+    "meaning": "n. 交流；通讯；沟通",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "community",
+    "phonetic": "/kəˈmjuːnəti/",
+    "meaning": "n. 社区；社会；团体",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "company",
+    "phonetic": "/ˈkʌmpəni/",
+    "meaning": "n. 公司；陪伴",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "compare",
+    "phonetic": "/kəmˈpeə(r)/",
+    "meaning": "v. 比较；对比",
+    "collocations": "compare with/to",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "compete",
+    "phonetic": "/kəmˈpiːt/",
+    "meaning": "vi. 竞争；比赛",
+    "collocations": "compete with/against",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "competition",
+    "phonetic": "/ˌkɒmpəˈtɪʃn/",
+    "meaning": "n. 竞争；比赛",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "competitive",
+    "phonetic": "/kəmˈpetətɪv/",
+    "meaning": "adj. 竞争的；有竞争力的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "complain",
+    "phonetic": "/kəmˈpleɪn/",
+    "meaning": "v. 抱怨；投诉",
+    "collocations": "complain about",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "complete",
+    "phonetic": "/kəmˈpliːt/",
+    "meaning": "adj. 完整的 vt. 完成",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "complex",
+    "phonetic": "/ˈkɒmpleks/",
+    "meaning": "adj. 复杂的 n. 综合体",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "component",
+    "phonetic": "/kəmˈpəʊnənt/",
+    "meaning": "n. 组成部分；部件",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "comprehensive",
+    "phonetic": "/ˌkɒmprɪˈhensɪv/",
+    "meaning": "adj. 综合的；全面的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "computer",
+    "phonetic": "/kəmˈpjuːtə(r)/",
+    "meaning": "n. 计算机",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "concentrate",
+    "phonetic": "/ˈkɒnsntreɪt/",
+    "meaning": "v. 集中；专注",
+    "collocations": "concentrate on",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "concept",
+    "phonetic": "/ˈkɒnsept/",
+    "meaning": "n. 概念；观念",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "concern",
+    "phonetic": "/kənˈsɜːn/",
+    "meaning": "vt. 涉及；使担心 n. 关心",
+    "collocations": "be concerned about",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "concert",
+    "phonetic": "/ˈkɒnsət/",
+    "meaning": "n. 音乐会；演奏会",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "conclude",
+    "phonetic": "/kənˈkluːd/",
+    "meaning": "v. 得出结论；结束",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "conclusion",
+    "phonetic": "/kənˈkluːʒn/",
+    "meaning": "n. 结论；结束",
+    "collocations": "draw a conclusion",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "condition",
+    "phonetic": "/kənˈdɪʃn/",
+    "meaning": "n. 条件；状况；环境",
+    "collocations": "on condition that",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "conduct",
+    "phonetic": "/kənˈdʌkt/",
+    "meaning": "vt. 进行；引导；指挥 n. 行为",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "conference",
+    "phonetic": "/ˈkɒnfərəns/",
+    "meaning": "n. 会议；讨论会",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "confidence",
+    "phonetic": "/ˈkɒnfɪdəns/",
+    "meaning": "n. 信心；信任",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "confident",
+    "phonetic": "/ˈkɒnfɪdənt/",
+    "meaning": "adj. 自信的；有信心的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "confirm",
+    "phonetic": "/kənˈfɜːm/",
+    "meaning": "vt. 确认；证实；批准",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "conflict",
+    "phonetic": "/ˈkɒnflɪkt/",
+    "meaning": "n. 冲突；矛盾 vi. 冲突",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "confuse",
+    "phonetic": "/kənˈfjuːz/",
+    "meaning": "vt. 使困惑；混淆",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "connect",
+    "phonetic": "/kəˈnekt/",
+    "meaning": "v. 连接；联系",
+    "collocations": "connect with",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "connection",
+    "phonetic": "/kəˈnekʃn/",
+    "meaning": "n. 连接；关系；联系",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "conscious",
+    "phonetic": "/ˈkɒnʃəs/",
+    "meaning": "adj. 有意识的；清醒的",
+    "collocations": "be conscious of",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "consequence",
+    "phonetic": "/ˈkɒnsɪkwəns/",
+    "meaning": "n. 结果；后果；重要性",
+    "collocations": "in consequence",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "consider",
+    "phonetic": "/kənˈsɪdə(r)/",
+    "meaning": "vt. 考虑；认为",
+    "collocations": "consider doing",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "consist",
+    "phonetic": "/kənˈsɪst/",
+    "meaning": "vi. 由…组成；在于",
+    "collocations": "consist of",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "consistent",
+    "phonetic": "/kənˈsɪstənt/",
+    "meaning": "adj. 一致的；始终如一的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "constant",
+    "phonetic": "/ˈkɒnstənt/",
+    "meaning": "adj. 不断的；恒定的 n. 常数",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "construct",
+    "phonetic": "/kənˈstrʌkt/",
+    "meaning": "vt. 建造；构建",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "construction",
+    "phonetic": "/kənˈstrʌkʃn/",
+    "meaning": "n. 建设；建筑；结构",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "consume",
+    "phonetic": "/kənˈsjuːm/",
+    "meaning": "vt. 消费；消耗；吃；喝",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "consumer",
+    "phonetic": "/kənˈsjuːmə(r)/",
+    "meaning": "n. 消费者",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "contact",
+    "phonetic": "/ˈkɒntækt/",
+    "meaning": "n./vt. 接触；联系",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "contain",
+    "phonetic": "/kənˈteɪn/",
+    "meaning": "vt. 包含；容纳；控制",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "content",
+    "phonetic": "/ˈkɒntent/",
+    "meaning": "n. 内容；含量；满足",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "context",
+    "phonetic": "/ˈkɒntekst/",
+    "meaning": "n. 上下文；背景；语境",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "continue",
+    "phonetic": "/kənˈtɪnjuː/",
+    "meaning": "v. 继续；持续",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "contract",
+    "phonetic": "/ˈkɒntrækt/",
+    "meaning": "n. 合同；契约 v. 收缩",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "contrast",
+    "phonetic": "/ˈkɒntrɑːst/",
+    "meaning": "n. 对比；对照；反差",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "contribute",
+    "phonetic": "/kənˈtrɪbjuːt/",
+    "meaning": "v. 贡献；捐献；导致",
+    "collocations": "contribute to",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "control",
+    "phonetic": "/kənˈtrəʊl/",
+    "meaning": "vt./n. 控制；管理",
+    "collocations": "out of control",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "convenient",
+    "phonetic": "/kənˈviːniənt/",
+    "meaning": "adj. 方便的；便利的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "conversation",
+    "phonetic": "/ˌkɒnvəˈseɪʃn/",
+    "meaning": "n. 交谈；对话",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "convince",
+    "phonetic": "/kənˈvɪns/",
+    "meaning": "vt. 使确信；说服",
+    "collocations": "convince sb of",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "cook",
+    "phonetic": "/kʊk/",
+    "meaning": "v. 烹饪 n. 厨师",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "cool",
+    "phonetic": "/kuːl/",
+    "meaning": "adj. 凉爽的；冷静的；酷的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "copy",
+    "phonetic": "/ˈkɒpi/",
+    "meaning": "n. 副本 vt. 复制；模仿",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "core",
+    "phonetic": "/kɔː(r)/",
+    "meaning": "n. 核心；要点；果核",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "corner",
+    "phonetic": "/ˈkɔːnə(r)/",
+    "meaning": "n. 角落；拐角",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "corporation",
+    "phonetic": "/ˌkɔːpəˈreɪʃn/",
+    "meaning": "n. 公司；企业；法人",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "correct",
+    "phonetic": "/kəˈrekt/",
+    "meaning": "adj. 正确的 vt. 纠正",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "cost",
+    "phonetic": "/kɒst/",
+    "meaning": "n. 成本；费用 v. 花费",
+    "collocations": "at the cost of",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "count",
+    "phonetic": "/kaʊnt/",
+    "meaning": "v. 数；计数；重要",
+    "collocations": "count on 依靠",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "country",
+    "phonetic": "/ˈkʌntri/",
+    "meaning": "n. 国家；农村",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "couple",
+    "phonetic": "/ˈkʌpl/",
+    "meaning": "n. 一对；夫妇；几个",
+    "collocations": "a couple of 几个",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "courage",
+    "phonetic": "/ˈkʌrɪdʒ/",
+    "meaning": "n. 勇气；胆量",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "course",
+    "phonetic": "/kɔːs/",
+    "meaning": "n. 课程；过程；路线",
+    "collocations": "of course 当然",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "court",
+    "phonetic": "/kɔːt/",
+    "meaning": "n. 法院；球场；庭院",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "cousin",
+    "phonetic": "/ˈkʌzn/",
+    "meaning": "n. 堂兄弟(姐妹)；表兄弟(姐妹)",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "cover",
+    "phonetic": "/ˈkʌvə(r)/",
+    "meaning": "vt. 覆盖；包括 n. 封面",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "crazy",
+    "phonetic": "/ˈkreɪzi/",
+    "meaning": "adj. 疯狂的；着迷的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "create",
+    "phonetic": "/kriˈeɪt/",
+    "meaning": "vt. 创造；创建；造成",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "creative",
+    "phonetic": "/kriˈeɪtɪv/",
+    "meaning": "adj. 有创造力的；创造性的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "credit",
+    "phonetic": "/ˈkredɪt/",
+    "meaning": "n. 信用；学分；赞扬",
+    "collocations": "credit card 信用卡",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "crime",
+    "phonetic": "/kraɪm/",
+    "meaning": "n. 犯罪；罪行",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "criminal",
+    "phonetic": "/ˈkrɪmɪnl/",
+    "meaning": "n. 罪犯 adj. 犯罪的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "crisis",
+    "phonetic": "/ˈkraɪsɪs/",
+    "meaning": "n. 危机；紧要关头",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "critical",
+    "phonetic": "/ˈkrɪtɪkl/",
+    "meaning": "adj. 批评的；关键的；危急的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "cross",
+    "phonetic": "/krɒs/",
+    "meaning": "v. 穿过 n. 十字形 adj. 生气的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "crowd",
+    "phonetic": "/kraʊd/",
+    "meaning": "n. 人群 v. 拥挤",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "crucial",
+    "phonetic": "/ˈkruːʃl/",
+    "meaning": "adj. 关键的；至关重要的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "cry",
+    "phonetic": "/kraɪ/",
+    "meaning": "v./n. 哭；叫喊",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "culture",
+    "phonetic": "/ˈkʌltʃə(r)/",
+    "meaning": "n. 文化；教养；培养",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "cup",
+    "phonetic": "/kʌp/",
+    "meaning": "n. 杯子；奖杯",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "cure",
+    "phonetic": "/kjʊə(r)/",
+    "meaning": "vt./n. 治愈；治疗",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "curious",
+    "phonetic": "/ˈkjʊəriəs/",
+    "meaning": "adj. 好奇的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "current",
+    "phonetic": "/ˈkʌrənt/",
+    "meaning": "adj. 当前的；流行的 n. 水流；电流",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "custom",
+    "phonetic": "/ˈkʌstəm/",
+    "meaning": "n. 风俗；习惯；海关",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "customer",
+    "phonetic": "/ˈkʌstəmə(r)/",
+    "meaning": "n. 顾客；客户",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "cut",
+    "phonetic": "/kʌt/",
+    "meaning": "v./n. 切；割；削减",
+    "collocations": "cut down 削减",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "daily",
+    "phonetic": "/ˈdeɪli/",
+    "meaning": "adj./adv. 每日的(地)",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "damage",
+    "phonetic": "/ˈdæmɪdʒ/",
+    "meaning": "vt./n. 损害；破坏",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "dance",
+    "phonetic": "/dɑːns/",
+    "meaning": "v./n. 跳舞；舞蹈",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "danger",
+    "phonetic": "/ˈdeɪndʒə(r)/",
+    "meaning": "n. 危险",
+    "collocations": "in danger",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "dangerous",
+    "phonetic": "/ˈdeɪndʒərəs/",
+    "meaning": "adj. 危险的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "dare",
+    "phonetic": "/deə(r)/",
+    "meaning": "v./aux. 敢；敢于",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "dark",
+    "phonetic": "/dɑːk/",
+    "meaning": "adj. 黑暗的；深色的 n. 黑暗",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "data",
+    "phonetic": "/ˈdeɪtə/",
+    "meaning": "n. 数据；资料",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "database",
+    "phonetic": "/ˈdeɪtəbeɪs/",
+    "meaning": "n. 数据库",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "date",
+    "phonetic": "/deɪt/",
+    "meaning": "n. 日期；约会 v. 注明日期",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "daughter",
+    "phonetic": "/ˈdɔːtə(r)/",
+    "meaning": "n. 女儿",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "day",
+    "phonetic": "/deɪ/",
+    "meaning": "n. 天；白天；日子",
+    "collocations": "day by day",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "dead",
+    "phonetic": "/ded/",
+    "meaning": "adj. 死的；无生命的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "deadline",
+    "phonetic": "/ˈdedlaɪn/",
+    "meaning": "n. 截止日期；最后期限",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "deal",
+    "phonetic": "/diːl/",
+    "meaning": "v. 处理；交易 n. 协议",
+    "collocations": "deal with 处理",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "dear",
+    "phonetic": "/dɪə(r)/",
+    "meaning": "adj. 亲爱的；昂贵的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "death",
+    "phonetic": "/deθ/",
+    "meaning": "n. 死亡",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "debate",
+    "phonetic": "/dɪˈbeɪt/",
+    "meaning": "n./v. 辩论；争论",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "debt",
+    "phonetic": "/det/",
+    "meaning": "n. 债务；欠款",
+    "collocations": "in debt 负债",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "decade",
+    "phonetic": "/ˈdekeɪd/",
+    "meaning": "n. 十年",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "December",
+    "phonetic": "/dɪˈsembə(r)/",
+    "meaning": "n. 十二月",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "decide",
+    "phonetic": "/dɪˈsaɪd/",
+    "meaning": "v. 决定；下决心",
+    "collocations": "decide to do",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "decision",
+    "phonetic": "/dɪˈsɪʒn/",
+    "meaning": "n. 决定；决议",
+    "collocations": "make a decision",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "declare",
+    "phonetic": "/dɪˈkleə(r)/",
+    "meaning": "vt. 宣布；声明；申报",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  },
+  {
+    "word": "decline",
+    "phonetic": "/dɪˈklaɪn/",
+    "meaning": "v./n. 下降；衰退；拒绝",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet4"
+  }
+]

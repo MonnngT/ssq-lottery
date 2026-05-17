@@ -1,0 +1,3578 @@
+[
+  {
+    "word": "abbreviation",
+    "phonetic": "/əˌbriːviˈeɪʃn/",
+    "meaning": "n. 缩写；缩写词",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "abide",
+    "phonetic": "/əˈbaɪd/",
+    "meaning": "v. 遵守；忍受；容忍",
+    "collocations": "abide by 遵守",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "abolish",
+    "phonetic": "/əˈbɒlɪʃ/",
+    "meaning": "v. 废除；废止",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "absurd",
+    "phonetic": "/əbˈsɜːd/",
+    "meaning": "adj. 荒谬的；荒唐的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "accessory",
+    "phonetic": "/əkˈsesəri/",
+    "meaning": "n. 附件；配件；从犯",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "accommodate",
+    "phonetic": "/əˈkɒmədeɪt/",
+    "meaning": "v. 容纳；提供住宿；适应",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "acquaint",
+    "phonetic": "/əˈkweɪnt/",
+    "meaning": "v. 使认识；使了解",
+    "collocations": "acquaint with 熟悉",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "adhere",
+    "phonetic": "/ədˈhɪə(r)/",
+    "meaning": "v. 粘附；遵守；坚持",
+    "collocations": "adhere to 坚持",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "adjacent",
+    "phonetic": "/əˈdʒeɪsnt/",
+    "meaning": "adj. 邻近的；毗邻的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "administer",
+    "phonetic": "/ədˈmɪnɪstə(r)/",
+    "meaning": "v. 管理；执行；给予",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "adolescent",
+    "phonetic": "/ˌædəˈlesnt/",
+    "meaning": "n. 青少年 adj. 青春期的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "adverse",
+    "phonetic": "/ˈædvɜːs/",
+    "meaning": "adj. 不利的；相反的；敌对的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "aesthetic",
+    "phonetic": "/iːsˈθetɪk/",
+    "meaning": "adj. 美学的；审美的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "affiliate",
+    "phonetic": "/əˈfɪlieɪt/",
+    "meaning": "v. 使隶属；加入 n. 附属机构",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "affirm",
+    "phonetic": "/əˈfɜːm/",
+    "meaning": "v. 肯定；确认；断言",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "afflict",
+    "phonetic": "/əˈflɪkt/",
+    "meaning": "v. 使痛苦；折磨",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "aggregate",
+    "phonetic": "/ˈæɡrɪɡət/",
+    "meaning": "n. 合计；集合体 v. 聚集",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "agony",
+    "phonetic": "/ˈæɡəni/",
+    "meaning": "n. 极大的痛苦；苦恼",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "alien",
+    "phonetic": "/ˈeɪliən/",
+    "meaning": "adj. 外国的；陌生的 n. 外星人",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "allege",
+    "phonetic": "/əˈledʒ/",
+    "meaning": "v. 宣称；指控；断言",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "alleviate",
+    "phonetic": "/əˈliːvieɪt/",
+    "meaning": "v. 减轻；缓解",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "allocate",
+    "phonetic": "/ˈæləkeɪt/",
+    "meaning": "v. 分配；拨出",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "ambiguous",
+    "phonetic": "/æmˈbɪɡjuəs/",
+    "meaning": "adj. 含糊的；模棱两可的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "amend",
+    "phonetic": "/əˈmend/",
+    "meaning": "v. 修订；修改；改进",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "ample",
+    "phonetic": "/ˈæmpl/",
+    "meaning": "adj. 充足的；宽敞的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "amplify",
+    "phonetic": "/ˈæmplɪfaɪ/",
+    "meaning": "v. 放大；增强；详述",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "analogy",
+    "phonetic": "/əˈnælədʒi/",
+    "meaning": "n. 类比；比喻",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "anonymous",
+    "phonetic": "/əˈnɒnɪməs/",
+    "meaning": "adj. 匿名的；无名的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "apparatus",
+    "phonetic": "/ˌæpəˈreɪtəs/",
+    "meaning": "n. 装置；设备；仪器",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "applaud",
+    "phonetic": "/əˈplɔːd/",
+    "meaning": "v. 鼓掌；称赞",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "appraisal",
+    "phonetic": "/əˈpreɪzl/",
+    "meaning": "n. 评价；评估；鉴定",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "apt",
+    "phonetic": "/æpt/",
+    "meaning": "adj. 恰当的；有...倾向的；聪明的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "array",
+    "phonetic": "/əˈreɪ/",
+    "meaning": "n. 一系列；阵列 v. 排列",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "arrogant",
+    "phonetic": "/ˈærəɡənt/",
+    "meaning": "adj. 傲慢的；自大的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "articulate",
+    "phonetic": "/ɑːˈtɪkjuleɪt/",
+    "meaning": "v. 清楚地表达 adj. 善于表达的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "ascend",
+    "phonetic": "/əˈsend/",
+    "meaning": "v. 攀登；上升；登高",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "ascribe",
+    "phonetic": "/əˈskraɪb/",
+    "meaning": "v. 把...归因于",
+    "collocations": "ascribe to 归因于",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "assault",
+    "phonetic": "/əˈsɔːlt/",
+    "meaning": "n./v. 攻击；袭击",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "assert",
+    "phonetic": "/əˈsɜːt/",
+    "meaning": "v. 断言；声称；坚持",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "assimilate",
+    "phonetic": "/əˈsɪməleɪt/",
+    "meaning": "v. 吸收；同化；理解",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "authentic",
+    "phonetic": "/ɔːˈθentɪk/",
+    "meaning": "adj. 真正的；真实的；可靠的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "authorize",
+    "phonetic": "/ˈɔːθəraɪz/",
+    "meaning": "v. 授权；批准",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "automation",
+    "phonetic": "/ˌɔːtəˈmeɪʃn/",
+    "meaning": "n. 自动化",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "autonomy",
+    "phonetic": "/ɔːˈtɒnəmi/",
+    "meaning": "n. 自治；自主权",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "avail",
+    "phonetic": "/əˈveɪl/",
+    "meaning": "v. 有益于 n. 效用",
+    "collocations": "avail oneself of 利用",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "avert",
+    "phonetic": "/əˈvɜːt/",
+    "meaning": "v. 避免；防止；转移",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "bachelor",
+    "phonetic": "/ˈbætʃələ(r)/",
+    "meaning": "n. 学士；单身汉",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "badge",
+    "phonetic": "/bædʒ/",
+    "meaning": "n. 徽章；标记",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "baffle",
+    "phonetic": "/ˈbæfl/",
+    "meaning": "v. 使困惑；难倒",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "bald",
+    "phonetic": "/bɔːld/",
+    "meaning": "adj. 秃头的；光秃的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "ballet",
+    "phonetic": "/ˈbæleɪ/",
+    "meaning": "n. 芭蕾舞",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "bankrupt",
+    "phonetic": "/ˈbæŋkrʌpt/",
+    "meaning": "adj. 破产的 v. 使破产",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "banquet",
+    "phonetic": "/ˈbæŋkwɪt/",
+    "meaning": "n. 宴会",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "barren",
+    "phonetic": "/ˈbærən/",
+    "meaning": "adj. 贫瘠的；不毛的；不孕的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "basement",
+    "phonetic": "/ˈbeɪsmənt/",
+    "meaning": "n. 地下室",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "batch",
+    "phonetic": "/bætʃ/",
+    "meaning": "n. 一批；一组；一群",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "beforehand",
+    "phonetic": "/bɪˈfɔːhænd/",
+    "meaning": "adv. 预先；事先",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "betray",
+    "phonetic": "/bɪˈtreɪ/",
+    "meaning": "v. 背叛；出卖；泄露",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "bewilder",
+    "phonetic": "/bɪˈwɪldə(r)/",
+    "meaning": "v. 使迷惑；使糊涂",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "bias",
+    "phonetic": "/ˈbaɪəs/",
+    "meaning": "n. 偏见；偏心 v. 使有偏见",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "bibliography",
+    "phonetic": "/ˌbɪbliˈɒɡrəfi/",
+    "meaning": "n. 参考书目；文献目录",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "biography",
+    "phonetic": "/baɪˈɒɡrəfi/",
+    "meaning": "n. 传记",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "bizarre",
+    "phonetic": "/bɪˈzɑː(r)/",
+    "meaning": "adj. 奇异的；古怪的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "blaze",
+    "phonetic": "/bleɪz/",
+    "meaning": "n. 火焰；烈火 v. 燃烧；闪耀",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "bleak",
+    "phonetic": "/bliːk/",
+    "meaning": "adj. 荒凉的；阴冷的；暗淡的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "bless",
+    "phonetic": "/bles/",
+    "meaning": "v. 祝福；保佑",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "blink",
+    "phonetic": "/blɪŋk/",
+    "meaning": "v./n. 眨眼；闪烁",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "blossom",
+    "phonetic": "/ˈblɒsəm/",
+    "meaning": "n. 花朵 v. 开花；兴旺",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "blunder",
+    "phonetic": "/ˈblʌndə(r)/",
+    "meaning": "n. 大错 v. 犯大错",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "blunt",
+    "phonetic": "/blʌnt/",
+    "meaning": "adj. 钝的；直率的 v. 使钝",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "blur",
+    "phonetic": "/blɜː(r)/",
+    "meaning": "n. 模糊 v. 使模糊",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "blush",
+    "phonetic": "/blʌʃ/",
+    "meaning": "v./n. 脸红；羞愧",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "bonus",
+    "phonetic": "/ˈbəʊnəs/",
+    "meaning": "n. 奖金；红利；额外的好处",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "booklet",
+    "phonetic": "/ˈbʊklət/",
+    "meaning": "n. 小册子",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "booth",
+    "phonetic": "/buːð/",
+    "meaning": "n. 小隔间；公用电话亭",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "bounce",
+    "phonetic": "/baʊns/",
+    "meaning": "v./n. 弹跳；反弹",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "boycott",
+    "phonetic": "/ˈbɔɪkɒt/",
+    "meaning": "v./n. 抵制；排斥",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "brace",
+    "phonetic": "/breɪs/",
+    "meaning": "n. 支架；牙箍 v. 支撑；准备",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "bracket",
+    "phonetic": "/ˈbrækɪt/",
+    "meaning": "n. 括号；支架；等级",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "breach",
+    "phonetic": "/briːtʃ/",
+    "meaning": "n./v. 违反；破坏；突破口",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "breakdown",
+    "phonetic": "/ˈbreɪkdaʊn/",
+    "meaning": "n. 故障；崩溃；分解",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "breakthrough",
+    "phonetic": "/ˈbreɪkθruː/",
+    "meaning": "n. 突破；重大进展",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "breed",
+    "phonetic": "/briːd/",
+    "meaning": "v. 繁殖；饲养 n. 品种",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "bribe",
+    "phonetic": "/braɪb/",
+    "meaning": "n./v. 贿赂",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "briefcase",
+    "phonetic": "/ˈbriːfkeɪs/",
+    "meaning": "n. 公文包",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "brink",
+    "phonetic": "/brɪŋk/",
+    "meaning": "n. 边缘",
+    "collocations": "on the brink of 濒临",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "brisk",
+    "phonetic": "/brɪsk/",
+    "meaning": "adj. 轻快的；活泼的；兴旺的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "bronze",
+    "phonetic": "/brɒnz/",
+    "meaning": "n. 青铜；古铜色",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "brood",
+    "phonetic": "/bruːd/",
+    "meaning": "v. 沉思；孵蛋 n. 一窝",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "browse",
+    "phonetic": "/braʊz/",
+    "meaning": "v./n. 浏览；吃草",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "bruise",
+    "phonetic": "/bruːz/",
+    "meaning": "n. 青肿；伤痕 v. 使受伤",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "brutal",
+    "phonetic": "/ˈbruːtl/",
+    "meaning": "adj. 残忍的；野蛮的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "bud",
+    "phonetic": "/bʌd/",
+    "meaning": "n. 芽；花蕾 v. 发芽",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "bug",
+    "phonetic": "/bʌɡ/",
+    "meaning": "n. 虫子；故障 v. 窃听；烦扰",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "bulletin",
+    "phonetic": "/ˈbʊlətɪn/",
+    "meaning": "n. 公告；公报",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "bully",
+    "phonetic": "/ˈbʊli/",
+    "meaning": "n. 欺凌者 v. 欺负",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "bureaucracy",
+    "phonetic": "/bjʊəˈrɒkrəsi/",
+    "meaning": "n. 官僚机构；官僚主义",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "burial",
+    "phonetic": "/ˈberiəl/",
+    "meaning": "n. 埋葬；葬礼",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "buzz",
+    "phonetic": "/bʌz/",
+    "meaning": "v./n. 嗡嗡声；忙碌",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "bypass",
+    "phonetic": "/ˈbaɪpɑːs/",
+    "meaning": "v. 绕过 n. 旁路",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cabin",
+    "phonetic": "/ˈkæbɪn/",
+    "meaning": "n. 小屋；船舱",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cafeteria",
+    "phonetic": "/ˌkæfəˈtɪəriə/",
+    "meaning": "n. 自助餐厅",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "calcium",
+    "phonetic": "/ˈkælsiəm/",
+    "meaning": "n. 钙",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "calorie",
+    "phonetic": "/ˈkæləri/",
+    "meaning": "n. 卡路里",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cancel",
+    "phonetic": "/ˈkænsl/",
+    "meaning": "v. 取消；撤销",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cane",
+    "phonetic": "/keɪn/",
+    "meaning": "n. 手杖；藤条",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cannon",
+    "phonetic": "/ˈkænən/",
+    "meaning": "n. 大炮",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "canvas",
+    "phonetic": "/ˈkænvəs/",
+    "meaning": "n. 帆布；画布",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "capsule",
+    "phonetic": "/ˈkæpsjuːl/",
+    "meaning": "n. 胶囊；太空舱",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "caption",
+    "phonetic": "/ˈkæpʃn/",
+    "meaning": "n. 标题；说明文字",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "captive",
+    "phonetic": "/ˈkæptɪv/",
+    "meaning": "n. 俘虏 adj. 被俘的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cardinal",
+    "phonetic": "/ˈkɑːdɪnl/",
+    "meaning": "adj. 主要的；基本的 n. 红衣主教",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cargo",
+    "phonetic": "/ˈkɑːɡəʊ/",
+    "meaning": "n. 货物",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "carve",
+    "phonetic": "/kɑːv/",
+    "meaning": "v. 雕刻；切开",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cassette",
+    "phonetic": "/kəˈset/",
+    "meaning": "n. 盒式磁带",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "casualty",
+    "phonetic": "/ˈkæʒuəlti/",
+    "meaning": "n. 伤亡人员；受害者",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "catalyst",
+    "phonetic": "/ˈkætəlɪst/",
+    "meaning": "n. 催化剂",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "Catholic",
+    "phonetic": "/ˈkæθlɪk/",
+    "meaning": "adj. 天主教的 n. 天主教徒",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "caution",
+    "phonetic": "/ˈkɔːʃn/",
+    "meaning": "n. 小心；谨慎 v. 警告",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cavity",
+    "phonetic": "/ˈkævəti/",
+    "meaning": "n. 腔；洞；蛀牙洞",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cellar",
+    "phonetic": "/ˈselə(r)/",
+    "meaning": "n. 地窖；地下室",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "census",
+    "phonetic": "/ˈsensəs/",
+    "meaning": "n. 人口普查",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "ceramic",
+    "phonetic": "/sɪˈræmɪk/",
+    "meaning": "adj. 陶瓷的 n. 陶瓷制品",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cereal",
+    "phonetic": "/ˈsɪəriəl/",
+    "meaning": "n. 谷物；谷类食品",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "certainty",
+    "phonetic": "/ˈsɜːtnti/",
+    "meaning": "n. 确定；必然的事",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "certify",
+    "phonetic": "/ˈsɜːtɪfaɪ/",
+    "meaning": "v. 证明；证实；发证书",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "chamber",
+    "phonetic": "/ˈtʃeɪmbə(r)/",
+    "meaning": "n. 会议厅；房间；腔",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "champagne",
+    "phonetic": "/ʃæmˈpeɪn/",
+    "meaning": "n. 香槟酒",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "chancellor",
+    "phonetic": "/ˈtʃɑːnsələ(r)/",
+    "meaning": "n. 大臣；总理；校长",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "chant",
+    "phonetic": "/tʃɑːnt/",
+    "meaning": "v./n. 吟唱；反复呼喊",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "chapel",
+    "phonetic": "/ˈtʃæpl/",
+    "meaning": "n. 小礼拜堂；教堂",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "charcoal",
+    "phonetic": "/ˈtʃɑːkəʊl/",
+    "meaning": "n. 木炭",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "charter",
+    "phonetic": "/ˈtʃɑːtə(r)/",
+    "meaning": "n. 宪章；特许状 v. 包租",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "chat",
+    "phonetic": "/tʃæt/",
+    "meaning": "v./n. 聊天；闲谈",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cherish",
+    "phonetic": "/ˈtʃerɪʃ/",
+    "meaning": "v. 珍爱；珍惜；怀有",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "chess",
+    "phonetic": "/tʃes/",
+    "meaning": "n. 国际象棋",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "chestnut",
+    "phonetic": "/ˈtʃesnʌt/",
+    "meaning": "n. 栗子；栗树",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "chili",
+    "phonetic": "/ˈtʃɪli/",
+    "meaning": "n. 辣椒",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "choir",
+    "phonetic": "/ˈkwaɪə(r)/",
+    "meaning": "n. 合唱团",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cholesterol",
+    "phonetic": "/kəˈlestərɒl/",
+    "meaning": "n. 胆固醇",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "chord",
+    "phonetic": "/kɔːd/",
+    "meaning": "n. 和弦；弦",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "chorus",
+    "phonetic": "/ˈkɔːrəs/",
+    "meaning": "n. 合唱；副歌",
+    "collocations": "in chorus 一齐",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "chronic",
+    "phonetic": "/ˈkrɒnɪk/",
+    "meaning": "adj. 慢性的；长期的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "chunk",
+    "phonetic": "/tʃʌŋk/",
+    "meaning": "n. 大块；相当大的量",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "circulation",
+    "phonetic": "/ˌsɜːkjəˈleɪʃn/",
+    "meaning": "n. 循环；流通；发行量",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "circus",
+    "phonetic": "/ˈsɜːkəs/",
+    "meaning": "n. 马戏团",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "civic",
+    "phonetic": "/ˈsɪvɪk/",
+    "meaning": "adj. 城市的；市民的；公民的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "clamp",
+    "phonetic": "/klæmp/",
+    "meaning": "n. 夹子 v. 夹住",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "clan",
+    "phonetic": "/klæn/",
+    "meaning": "n. 宗族；部落；集团",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "clarity",
+    "phonetic": "/ˈklærəti/",
+    "meaning": "n. 清晰；清楚；明确",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "clash",
+    "phonetic": "/klæʃ/",
+    "meaning": "v./n. 冲突；碰撞；不协调",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "clasp",
+    "phonetic": "/klɑːsp/",
+    "meaning": "v. 紧握；扣住 n. 扣子",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "classic",
+    "phonetic": "/ˈklæsɪk/",
+    "meaning": "adj. 经典的；典型的 n. 经典作品",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "clause",
+    "phonetic": "/klɔːz/",
+    "meaning": "n. 从句；条款",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "clearance",
+    "phonetic": "/ˈklɪərəns/",
+    "meaning": "n. 清除；批准；净空",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "clientele",
+    "phonetic": "/ˌkliːɒnˈtel/",
+    "meaning": "n. 顾客；客户",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cling",
+    "phonetic": "/klɪŋ/",
+    "meaning": "v. 紧紧抓住；黏着；依恋",
+    "collocations": "cling to 坚持",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "clip",
+    "phonetic": "/klɪp/",
+    "meaning": "n. 夹子；片段 v. 夹住；剪",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "clone",
+    "phonetic": "/kləʊn/",
+    "meaning": "n./v. 克隆；无性繁殖",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "closet",
+    "phonetic": "/ˈklɒzɪt/",
+    "meaning": "n. 壁橱 adj. 秘密的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cluster",
+    "phonetic": "/ˈklʌstə(r)/",
+    "meaning": "n. 群；簇 v. 群集",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "clutch",
+    "phonetic": "/klʌtʃ/",
+    "meaning": "v. 抓住 n. 离合器",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "coalition",
+    "phonetic": "/ˌkəʊəˈlɪʃn/",
+    "meaning": "n. 联盟；联合",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cocaine",
+    "phonetic": "/kəʊˈkeɪn/",
+    "meaning": "n. 可卡因",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cognitive",
+    "phonetic": "/ˈkɒɡnətɪv/",
+    "meaning": "adj. 认知的；认识的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "coherent",
+    "phonetic": "/kəʊˈhɪərənt/",
+    "meaning": "adj. 连贯的；一致的；有条理的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "coincide",
+    "phonetic": "/ˌkəʊɪnˈsaɪd/",
+    "meaning": "v. 同时发生；巧合；一致",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "collaboration",
+    "phonetic": "/kəˌlæbəˈreɪʃn/",
+    "meaning": "n. 合作；协作",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "collide",
+    "phonetic": "/kəˈlaɪd/",
+    "meaning": "v. 碰撞；冲突",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "colonial",
+    "phonetic": "/kəˈləʊniəl/",
+    "meaning": "adj. 殖民地的 n. 殖民地居民",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "comet",
+    "phonetic": "/ˈkɒmɪt/",
+    "meaning": "n. 彗星",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "comic",
+    "phonetic": "/ˈkɒmɪk/",
+    "meaning": "adj. 喜剧的 n. 漫画书",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "commemorate",
+    "phonetic": "/kəˈmeməreɪt/",
+    "meaning": "v. 纪念；庆祝",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "commence",
+    "phonetic": "/kəˈmens/",
+    "meaning": "v. 开始；着手",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "commend",
+    "phonetic": "/kəˈmend/",
+    "meaning": "v. 称赞；推荐；委托",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "commentary",
+    "phonetic": "/ˈkɒməntri/",
+    "meaning": "n. 评论；解说；评注",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "commission",
+    "phonetic": "/kəˈmɪʃn/",
+    "meaning": "n. 委员会；佣金 v. 委托",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "commodity",
+    "phonetic": "/kəˈmɒdəti/",
+    "meaning": "n. 商品；货物",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "commonplace",
+    "phonetic": "/ˈkɒmənpleɪs/",
+    "meaning": "adj. 平凡的；普通的 n. 平常的事",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "commute",
+    "phonetic": "/kəˈmjuːt/",
+    "meaning": "v. 通勤；减刑；交换",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "compact",
+    "phonetic": "/kəmˈpækt/",
+    "meaning": "adj. 紧密的；紧凑的 n. 协议",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "comparable",
+    "phonetic": "/ˈkɒmpərəbl/",
+    "meaning": "adj. 可比较的；类似的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "compatible",
+    "phonetic": "/kəmˈpætəbl/",
+    "meaning": "adj. 兼容的；相容的；合得来的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "compel",
+    "phonetic": "/kəmˈpel/",
+    "meaning": "v. 强迫；迫使",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "compile",
+    "phonetic": "/kəmˈpaɪl/",
+    "meaning": "v. 编辑；汇编；编译",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "complement",
+    "phonetic": "/ˈkɒmplɪment/",
+    "meaning": "v. 补充 n. 补充物",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "complexion",
+    "phonetic": "/kəmˈplekʃn/",
+    "meaning": "n. 肤色；面色；外观",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "complication",
+    "phonetic": "/ˌkɒmplɪˈkeɪʃn/",
+    "meaning": "n. 复杂；并发症",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "compliment",
+    "phonetic": "/ˈkɒmplɪmənt/",
+    "meaning": "n./v. 赞美；称赞",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "comply",
+    "phonetic": "/kəmˈplaɪ/",
+    "meaning": "v. 遵守；依从",
+    "collocations": "comply with 遵守",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "composite",
+    "phonetic": "/ˈkɒmpəzɪt/",
+    "meaning": "adj. 合成的；复合的 n. 合成物",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "compulsory",
+    "phonetic": "/kəmˈpʌlsəri/",
+    "meaning": "adj. 强制性的；义务的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "concede",
+    "phonetic": "/kənˈsiːd/",
+    "meaning": "v. 承认；让步；认输",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "conceive",
+    "phonetic": "/kənˈsiːv/",
+    "meaning": "v. 构想；设想；怀孕",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "conception",
+    "phonetic": "/kənˈsepʃn/",
+    "meaning": "n. 概念；想法；怀孕",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "concise",
+    "phonetic": "/kənˈsaɪs/",
+    "meaning": "adj. 简洁的；简明的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "condemn",
+    "phonetic": "/kənˈdem/",
+    "meaning": "v. 谴责；定罪；判刑",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "condense",
+    "phonetic": "/kənˈdens/",
+    "meaning": "v. 浓缩；压缩；凝结",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "confer",
+    "phonetic": "/kənˈfɜː(r)/",
+    "meaning": "v. 授予；商议；协商",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "confession",
+    "phonetic": "/kənˈfeʃn/",
+    "meaning": "n. 坦白；供认；忏悔",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "configuration",
+    "phonetic": "/kənˌfɪɡəˈreɪʃn/",
+    "meaning": "n. 配置；布局；结构",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "conform",
+    "phonetic": "/kənˈfɔːm/",
+    "meaning": "v. 遵守；符合；一致",
+    "collocations": "conform to 遵守",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "conscientious",
+    "phonetic": "/ˌkɒnʃiˈenʃəs/",
+    "meaning": "adj. 认真的；尽责的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "consecutive",
+    "phonetic": "/kənˈsekjətɪv/",
+    "meaning": "adj. 连续的；连贯的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "consensus",
+    "phonetic": "/kənˈsensəs/",
+    "meaning": "n. 共识；一致意见",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "consequent",
+    "phonetic": "/ˈkɒnsɪkwənt/",
+    "meaning": "adj. 随之发生的；作为结果的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "console",
+    "phonetic": "/kənˈsəʊl/",
+    "meaning": "v. 安慰 n. 控制台",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "consolidate",
+    "phonetic": "/kənˈsɒlɪdeɪt/",
+    "meaning": "v. 巩固；合并；加强",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "conspicuous",
+    "phonetic": "/kənˈspɪkjuəs/",
+    "meaning": "adj. 显眼的；引人注目的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "constituent",
+    "phonetic": "/kənˈstɪtjuənt/",
+    "meaning": "n. 选民；成分 adj. 组成的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "constrain",
+    "phonetic": "/kənˈstreɪn/",
+    "meaning": "v. 约束；限制；强迫",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "consul",
+    "phonetic": "/ˈkɒnsl/",
+    "meaning": "n. 领事",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "contemplate",
+    "phonetic": "/ˈkɒntəmpleɪt/",
+    "meaning": "v. 沉思；考虑；凝视",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "contempt",
+    "phonetic": "/kənˈtempt/",
+    "meaning": "n. 轻视；蔑视",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "contend",
+    "phonetic": "/kənˈtend/",
+    "meaning": "v. 竞争；斗争；主张",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "contention",
+    "phonetic": "/kənˈtenʃn/",
+    "meaning": "n. 争论；争辩；观点",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "continuity",
+    "phonetic": "/ˌkɒntɪˈnjuːəti/",
+    "meaning": "n. 连续性；持续性",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "contradict",
+    "phonetic": "/ˌkɒntrəˈdɪkt/",
+    "meaning": "v. 与...矛盾；反驳",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "contrive",
+    "phonetic": "/kənˈtraɪv/",
+    "meaning": "v. 设法做到；设计；谋划",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "convene",
+    "phonetic": "/kənˈviːn/",
+    "meaning": "v. 召集；召开；集合",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "converge",
+    "phonetic": "/kənˈvɜːdʒ/",
+    "meaning": "v. 聚集；汇聚；趋同",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "converse",
+    "phonetic": "/kənˈvɜːs/",
+    "meaning": "v. 交谈 adj. 相反的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "convict",
+    "phonetic": "/kənˈvɪkt/",
+    "meaning": "v. 定罪 n. 囚犯",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "conviction",
+    "phonetic": "/kənˈvɪkʃn/",
+    "meaning": "n. 信念；定罪；坚信",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cooperative",
+    "phonetic": "/kəʊˈɒpərətɪv/",
+    "meaning": "adj. 合作的 n. 合作社",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "coral",
+    "phonetic": "/ˈkɒrəl/",
+    "meaning": "n. 珊瑚 adj. 珊瑚色的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cordial",
+    "phonetic": "/ˈkɔːdiəl/",
+    "meaning": "adj. 热情友好的；热忱的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cork",
+    "phonetic": "/kɔːk/",
+    "meaning": "n. 软木；软木塞",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "correlate",
+    "phonetic": "/ˈkɒrəleɪt/",
+    "meaning": "v. 相互关联；相关",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "corrode",
+    "phonetic": "/kəˈrəʊd/",
+    "meaning": "v. 腐蚀；侵蚀",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "corrupt",
+    "phonetic": "/kəˈrʌpt/",
+    "meaning": "adj. 腐败的 v. 使腐败",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cosmic",
+    "phonetic": "/ˈkɒzmɪk/",
+    "meaning": "adj. 宇宙的；广大无边的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "costume",
+    "phonetic": "/ˈkɒstjuːm/",
+    "meaning": "n. 服装；戏装",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "couch",
+    "phonetic": "/kaʊtʃ/",
+    "meaning": "n. 长沙发；长椅",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "counsel",
+    "phonetic": "/ˈkaʊnsl/",
+    "meaning": "n. 忠告；辩护律师 v. 建议",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "counterpart",
+    "phonetic": "/ˈkaʊntəpɑːt/",
+    "meaning": "n. 对应的人或物；职位相当的人",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "coupon",
+    "phonetic": "/ˈkuːpɒn/",
+    "meaning": "n. 优惠券；赠券",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "courtesy",
+    "phonetic": "/ˈkɜːtəsi/",
+    "meaning": "n. 礼貌；谦恭",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "coverage",
+    "phonetic": "/ˈkʌvərɪdʒ/",
+    "meaning": "n. 覆盖范围；报道",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "coward",
+    "phonetic": "/ˈkaʊəd/",
+    "meaning": "n. 懦夫；胆小鬼",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cozy",
+    "phonetic": "/ˈkəʊzi/",
+    "meaning": "adj. 舒适的；温暖的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cradle",
+    "phonetic": "/ˈkreɪdl/",
+    "meaning": "n. 摇篮；发源地",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "credit",
+    "phonetic": "/ˈkredɪt/",
+    "meaning": "n. 信用；信贷；学分 v. 归功于",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "credible",
+    "phonetic": "/ˈkredəbl/",
+    "meaning": "adj. 可信的；可靠的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cricket",
+    "phonetic": "/ˈkrɪkɪt/",
+    "meaning": "n. 板球；蟋蟀",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cripple",
+    "phonetic": "/ˈkrɪpl/",
+    "meaning": "n. 跛子 v. 使残疾；严重损坏",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "crisp",
+    "phonetic": "/krɪsp/",
+    "meaning": "adj. 脆的；清爽的；干脆的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "criterion",
+    "phonetic": "/kraɪˈtɪəriən/",
+    "meaning": "n. 标准；准则",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "crown",
+    "phonetic": "/kraʊn/",
+    "meaning": "n. 王冠；顶 v. 加冕",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "crucial",
+    "phonetic": "/ˈkruːʃl/",
+    "meaning": "adj. 至关重要的；决定性的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cruise",
+    "phonetic": "/kruːz/",
+    "meaning": "n./v. 巡航；巡游",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "crumb",
+    "phonetic": "/krʌm/",
+    "meaning": "n. 面包屑；碎屑",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "crush",
+    "phonetic": "/krʌʃ/",
+    "meaning": "v. 压碎；碾碎；镇压",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cucumber",
+    "phonetic": "/ˈkjuːkʌmbə(r)/",
+    "meaning": "n. 黄瓜",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "culminate",
+    "phonetic": "/ˈkʌlmɪneɪt/",
+    "meaning": "v. 达到顶点；以...告终",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cumulative",
+    "phonetic": "/ˈkjuːmjələtɪv/",
+    "meaning": "adj. 累积的；渐增的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "curb",
+    "phonetic": "/kɜːb/",
+    "meaning": "v./n. 控制；约束；抑制",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "curl",
+    "phonetic": "/kɜːl/",
+    "meaning": "n. 卷发；卷曲 v. 卷曲",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "customary",
+    "phonetic": "/ˈkʌstəməri/",
+    "meaning": "adj. 习惯的；通常的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cute",
+    "phonetic": "/kjuːt/",
+    "meaning": "adj. 可爱的；聪明的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cylinder",
+    "phonetic": "/ˈsɪlɪndə(r)/",
+    "meaning": "n. 圆柱体；气缸",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "cynical",
+    "phonetic": "/ˈsɪnɪkl/",
+    "meaning": "adj. 愤世嫉俗的；冷嘲热讽的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "dart",
+    "phonetic": "/dɑːt/",
+    "meaning": "v. 飞奔；投掷 n. 飞镖",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "dazzle",
+    "phonetic": "/ˈdæzl/",
+    "meaning": "v. 使目眩；使赞叹",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "deadly",
+    "phonetic": "/ˈdedli/",
+    "meaning": "adj. 致命的；极度的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "decent",
+    "phonetic": "/ˈdiːsnt/",
+    "meaning": "adj. 体面的；正派的；相当好的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "decimal",
+    "phonetic": "/ˈdesɪml/",
+    "meaning": "adj. 十进制的 n. 小数",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "decisive",
+    "phonetic": "/dɪˈsaɪsɪv/",
+    "meaning": "adj. 决定性的；果断的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "declaration",
+    "phonetic": "/ˌdekləˈreɪʃn/",
+    "meaning": "n. 宣布；宣言；申报",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "decline",
+    "phonetic": "/dɪˈklaɪn/",
+    "meaning": "v./n. 下降；衰退；谢绝",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "decree",
+    "phonetic": "/dɪˈkriː/",
+    "meaning": "n. 法令；判决 v. 颁布",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "dedicate",
+    "phonetic": "/ˈdedɪkeɪt/",
+    "meaning": "v. 致力于；奉献",
+    "collocations": "dedicate to 致力于",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "deduce",
+    "phonetic": "/dɪˈdjuːs/",
+    "meaning": "v. 推论；推断",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "deduct",
+    "phonetic": "/dɪˈdʌkt/",
+    "meaning": "v. 扣除；减去",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "deem",
+    "phonetic": "/diːm/",
+    "meaning": "v. 认为；视为",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "default",
+    "phonetic": "/dɪˈfɔːlt/",
+    "meaning": "n. 违约；默认 v. 不履行",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "defect",
+    "phonetic": "/ˈdiːfekt/",
+    "meaning": "n. 缺陷；缺点 v. 背叛",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "defendant",
+    "phonetic": "/dɪˈfendənt/",
+    "meaning": "n. 被告",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "defiance",
+    "phonetic": "/dɪˈfaɪəns/",
+    "meaning": "n. 违抗；蔑视",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "deficiency",
+    "phonetic": "/dɪˈfɪʃnsi/",
+    "meaning": "n. 缺乏；不足；缺陷",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "deficit",
+    "phonetic": "/ˈdefɪsɪt/",
+    "meaning": "n. 赤字；不足额",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "defy",
+    "phonetic": "/dɪˈfaɪ/",
+    "meaning": "v. 违抗；藐视；挑战",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "degenerate",
+    "phonetic": "/dɪˈdʒenəreɪt/",
+    "meaning": "v. 退化；堕落",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "degrade",
+    "phonetic": "/dɪˈɡreɪd/",
+    "meaning": "v. 降低；贬低；退化",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "delegate",
+    "phonetic": "/ˈdelɪɡət/",
+    "meaning": "n. 代表 v. 委派",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "deliberate",
+    "phonetic": "/dɪˈlɪbərət/",
+    "meaning": "adj. 故意的；深思熟虑的 v. 仔细考虑",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "delicate",
+    "phonetic": "/ˈdelɪkət/",
+    "meaning": "adj. 精致的；微妙的；脆弱的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "demolish",
+    "phonetic": "/dɪˈmɒlɪʃ/",
+    "meaning": "v. 拆除；破坏；推翻",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "denial",
+    "phonetic": "/dɪˈnaɪəl/",
+    "meaning": "n. 否认；拒绝",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "denote",
+    "phonetic": "/dɪˈnəʊt/",
+    "meaning": "v. 表示；意味着",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "denounce",
+    "phonetic": "/dɪˈnaʊns/",
+    "meaning": "v. 谴责；公开指责",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "dense",
+    "phonetic": "/dens/",
+    "meaning": "adj. 稠密的；密集的；浓密的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "depict",
+    "phonetic": "/dɪˈpɪkt/",
+    "meaning": "v. 描绘；描述",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "deport",
+    "phonetic": "/dɪˈpɔːt/",
+    "meaning": "v. 驱逐出境",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "deprive",
+    "phonetic": "/dɪˈpraɪv/",
+    "meaning": "v. 剥夺；使丧失",
+    "collocations": "deprive of 剥夺",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "descendant",
+    "phonetic": "/dɪˈsendənt/",
+    "meaning": "n. 后代；子孙",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "descent",
+    "phonetic": "/dɪˈsent/",
+    "meaning": "n. 下降；下坡；血统",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "designate",
+    "phonetic": "/ˈdezɪɡneɪt/",
+    "meaning": "v. 指定；标明；命名",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "despise",
+    "phonetic": "/dɪˈspaɪz/",
+    "meaning": "v. 鄙视；蔑视",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "destined",
+    "phonetic": "/ˈdestɪnd/",
+    "meaning": "adj. 注定的；预定的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "destiny",
+    "phonetic": "/ˈdestəni/",
+    "meaning": "n. 命运；天命",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "destructive",
+    "phonetic": "/dɪˈstrʌktɪv/",
+    "meaning": "adj. 破坏性的；毁灭性的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "detach",
+    "phonetic": "/dɪˈtætʃ/",
+    "meaning": "v. 拆卸；使分离；派遣",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "detain",
+    "phonetic": "/dɪˈteɪn/",
+    "meaning": "v. 拘留；扣留；耽搁",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "detect",
+    "phonetic": "/dɪˈtekt/",
+    "meaning": "v. 发现；察觉；探测",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "deteriorate",
+    "phonetic": "/dɪˈtɪəriəreɪt/",
+    "meaning": "v. 恶化；变质；退化",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "deviate",
+    "phonetic": "/ˈdiːvieɪt/",
+    "meaning": "v. 偏离；背离",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "devote",
+    "phonetic": "/dɪˈvəʊt/",
+    "meaning": "v. 致力于；奉献",
+    "collocations": "devote to 致力于",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "diagnose",
+    "phonetic": "/ˈdaɪəɡnəʊz/",
+    "meaning": "v. 诊断；判断",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "diet",
+    "phonetic": "/ˈdaɪət/",
+    "meaning": "n. 饮食；节食 v. 节食",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "differentiate",
+    "phonetic": "/ˌdɪfəˈrenʃieɪt/",
+    "meaning": "v. 区分；区别；使不同",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "diffuse",
+    "phonetic": "/dɪˈfjuːz/",
+    "meaning": "v. 扩散；传播；弥漫",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "digest",
+    "phonetic": "/daɪˈdʒest/",
+    "meaning": "v. 消化；领会 n. 摘要",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "dilemma",
+    "phonetic": "/dɪˈlemə/",
+    "meaning": "n. 困境；进退两难",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "diligent",
+    "phonetic": "/ˈdɪlɪdʒənt/",
+    "meaning": "adj. 勤奋的；勤勉的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "dilute",
+    "phonetic": "/daɪˈluːt/",
+    "meaning": "v. 稀释；冲淡",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "diminish",
+    "phonetic": "/dɪˈmɪnɪʃ/",
+    "meaning": "v. 减少；缩小；减弱",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "dine",
+    "phonetic": "/daɪn/",
+    "meaning": "v. 进餐；用餐",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "diploma",
+    "phonetic": "/dɪˈpləʊmə/",
+    "meaning": "n. 文凭；毕业证书",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "diplomat",
+    "phonetic": "/ˈdɪpləmæt/",
+    "meaning": "n. 外交官；外交家",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "directory",
+    "phonetic": "/dɪˈrektəri/",
+    "meaning": "n. 目录；电话号码簿",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "disable",
+    "phonetic": "/dɪsˈeɪbl/",
+    "meaning": "v. 使残疾；使失去能力",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "disastrous",
+    "phonetic": "/dɪˈzɑːstrəs/",
+    "meaning": "adj. 灾难性的；极坏的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "discern",
+    "phonetic": "/dɪˈsɜːn/",
+    "meaning": "v. 识别；辨别；看出",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "disclose",
+    "phonetic": "/dɪsˈkləʊz/",
+    "meaning": "v. 揭露；透露；公开",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "discount",
+    "phonetic": "/ˈdɪskaʊnt/",
+    "meaning": "n. 折扣 v. 打折；不重视",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "discreet",
+    "phonetic": "/dɪˈskriːt/",
+    "meaning": "adj. 谨慎的；慎重的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "discrepancy",
+    "phonetic": "/dɪsˈkrepənsi/",
+    "meaning": "n. 差异；不一致",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "discrete",
+    "phonetic": "/dɪˈskriːt/",
+    "meaning": "adj. 离散的；分离的；个别的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "discriminate",
+    "phonetic": "/dɪˈskrɪmɪneɪt/",
+    "meaning": "v. 歧视；区分；辨别",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "disguise",
+    "phonetic": "/dɪsˈɡaɪz/",
+    "meaning": "v./n. 伪装；假扮",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "dismay",
+    "phonetic": "/dɪsˈmeɪ/",
+    "meaning": "n./v. 惊慌；沮丧",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "dispatch",
+    "phonetic": "/dɪˈspætʃ/",
+    "meaning": "v./n. 派遣；发送；调度",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "disperse",
+    "phonetic": "/dɪˈspɜːs/",
+    "meaning": "v. 分散；散开；驱散",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "displace",
+    "phonetic": "/dɪsˈpleɪs/",
+    "meaning": "v. 取代；移位；迫使离开",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "disposal",
+    "phonetic": "/dɪˈspəʊzl/",
+    "meaning": "n. 处理；处置；支配",
+    "collocations": "at one's disposal 由某人支配",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "dispose",
+    "phonetic": "/dɪˈspəʊz/",
+    "meaning": "v. 处理；处置；安排",
+    "collocations": "dispose of 处理",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "disregard",
+    "phonetic": "/ˌdɪsrɪˈɡɑːd/",
+    "meaning": "v./n. 漠视；不理会",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "disrupt",
+    "phonetic": "/dɪsˈrʌpt/",
+    "meaning": "v. 扰乱；中断；使混乱",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "dissipate",
+    "phonetic": "/ˈdɪsɪpeɪt/",
+    "meaning": "v. 消散；驱散；浪费",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "distil",
+    "phonetic": "/dɪˈstɪl/",
+    "meaning": "v. 蒸馏；提炼；汲取",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "distort",
+    "phonetic": "/dɪˈstɔːt/",
+    "meaning": "v. 扭曲；歪曲；变形",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "distract",
+    "phonetic": "/dɪˈstrækt/",
+    "meaning": "v. 分散注意力；使分心",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "disturbance",
+    "phonetic": "/dɪˈstɜːbəns/",
+    "meaning": "n. 干扰；骚乱；打扰",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "diversion",
+    "phonetic": "/daɪˈvɜːʃn/",
+    "meaning": "n. 转移；消遣；绕行",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "divert",
+    "phonetic": "/daɪˈvɜːt/",
+    "meaning": "v. 转移；使转向；消遣",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "dividend",
+    "phonetic": "/ˈdɪvɪdend/",
+    "meaning": "n. 股息；红利；被除数",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "divine",
+    "phonetic": "/dɪˈvaɪn/",
+    "meaning": "adj. 神圣的；极好的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "dizzy",
+    "phonetic": "/ˈdɪzi/",
+    "meaning": "adj. 头晕目眩的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "dock",
+    "phonetic": "/dɒk/",
+    "meaning": "n. 码头 v. 停靠码头",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "doctrine",
+    "phonetic": "/ˈdɒktrɪn/",
+    "meaning": "n. 教义；学说；信条",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "document",
+    "phonetic": "/ˈdɒkjumənt/",
+    "meaning": "n. 文件；文档 v. 记录",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "domain",
+    "phonetic": "/dəˈmeɪn/",
+    "meaning": "n. 领域；范围；域名",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "dome",
+    "phonetic": "/dəʊm/",
+    "meaning": "n. 圆屋顶；穹顶",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "dominant",
+    "phonetic": "/ˈdɒmɪnənt/",
+    "meaning": "adj. 占优势的；主导的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "dominate",
+    "phonetic": "/ˈdɒmɪneɪt/",
+    "meaning": "v. 支配；统治；占优势",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "donate",
+    "phonetic": "/dəʊˈneɪt/",
+    "meaning": "v. 捐赠；捐献",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "doom",
+    "phonetic": "/duːm/",
+    "meaning": "n. 厄运；毁灭 v. 注定",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "drain",
+    "phonetic": "/dreɪn/",
+    "meaning": "v. 排水；耗尽 n. 排水管",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "drastic",
+    "phonetic": "/ˈdræstɪk/",
+    "meaning": "adj. 激烈的；极端的；急剧的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "drawback",
+    "phonetic": "/ˈdrɔːbæk/",
+    "meaning": "n. 缺点；不利条件",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "dread",
+    "phonetic": "/dred/",
+    "meaning": "v./n. 恐惧；害怕",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "dreadful",
+    "phonetic": "/ˈdredfl/",
+    "meaning": "adj. 可怕的；糟糕的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "drought",
+    "phonetic": "/draʊt/",
+    "meaning": "n. 干旱",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "dual",
+    "phonetic": "/ˈdjuːəl/",
+    "meaning": "adj. 双的；双重的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "dub",
+    "phonetic": "/dʌb/",
+    "meaning": "v. 把...称为；为...配音",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "dubious",
+    "phonetic": "/ˈdjuːbiəs/",
+    "meaning": "adj. 可疑的；不确定的；含糊的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "duplicate",
+    "phonetic": "/ˈdjuːplɪkeɪt/",
+    "meaning": "v. 复制 n. 复制品 adj. 复制的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "dwarf",
+    "phonetic": "/dwɔːf/",
+    "meaning": "n. 矮人 v. 使相形见绌",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "dwell",
+    "phonetic": "/dwel/",
+    "meaning": "v. 居住；详述",
+    "collocations": "dwell on 详述",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "ease",
+    "phonetic": "/iːz/",
+    "meaning": "n. 容易；舒适 v. 减轻",
+    "collocations": "at ease 自在",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "Easter",
+    "phonetic": "/ˈiːstə(r)/",
+    "meaning": "n. 复活节",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "eccentric",
+    "phonetic": "/ɪkˈsentrɪk/",
+    "meaning": "adj. 古怪的 n. 古怪的人",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "eclipse",
+    "phonetic": "/ɪˈklɪps/",
+    "meaning": "n. 日食；月食 v. 使黯然失色",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "ecology",
+    "phonetic": "/iˈkɒlədʒi/",
+    "meaning": "n. 生态学；生态",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "edible",
+    "phonetic": "/ˈedəbl/",
+    "meaning": "adj. 可食用的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "ego",
+    "phonetic": "/ˈiːɡəʊ/",
+    "meaning": "n. 自我；自尊心",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "eject",
+    "phonetic": "/iˈdʒekt/",
+    "meaning": "v. 喷射；逐出；弹出",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "elapse",
+    "phonetic": "/ɪˈlæps/",
+    "meaning": "v. 时间流逝",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "elbow",
+    "phonetic": "/ˈelbəʊ/",
+    "meaning": "n. 肘部 v. 用肘推",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "elegant",
+    "phonetic": "/ˈelɪɡənt/",
+    "meaning": "adj. 优雅的；精美的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "elevate",
+    "phonetic": "/ˈelɪveɪt/",
+    "meaning": "v. 提升；提高；举起",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "elicit",
+    "phonetic": "/iˈlɪsɪt/",
+    "meaning": "v. 引出；探出；诱出",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "eligible",
+    "phonetic": "/ˈelɪdʒəbl/",
+    "meaning": "adj. 有资格的；合格的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "elite",
+    "phonetic": "/ɪˈliːt/",
+    "meaning": "n. 精英；上层人士",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "eloquent",
+    "phonetic": "/ˈeləkwənt/",
+    "meaning": "adj. 雄辩的；有口才的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "embark",
+    "phonetic": "/ɪmˈbɑːk/",
+    "meaning": "v. 上船；上飞机；开始",
+    "collocations": "embark on 着手",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "embed",
+    "phonetic": "/ɪmˈbed/",
+    "meaning": "v. 嵌入；植入；深留脑中",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "embody",
+    "phonetic": "/ɪmˈbɒdi/",
+    "meaning": "v. 体现；包含；具体表现",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "embryo",
+    "phonetic": "/ˈembriəʊ/",
+    "meaning": "n. 胚胎；初期",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "emerge",
+    "phonetic": "/iˈmɜːdʒ/",
+    "meaning": "v. 出现；浮现；暴露",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "emigrate",
+    "phonetic": "/ˈemɪɡreɪt/",
+    "meaning": "v. 移居国外",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "eminent",
+    "phonetic": "/ˈemɪnənt/",
+    "meaning": "adj. 杰出的；卓越的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "emit",
+    "phonetic": "/iˈmɪt/",
+    "meaning": "v. 发出；排放；散发",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "empirical",
+    "phonetic": "/ɪmˈpɪrɪkl/",
+    "meaning": "adj. 经验主义的；凭经验的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "enclosure",
+    "phonetic": "/ɪnˈkləʊʒə(r)/",
+    "meaning": "n. 围场；附件；圈地",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "endeavor",
+    "phonetic": "/ɪnˈdevə(r)/",
+    "meaning": "n./v. 努力；尽力",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "endow",
+    "phonetic": "/ɪnˈdaʊ/",
+    "meaning": "v. 赋予；捐赠；资助",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "endurance",
+    "phonetic": "/ɪnˈdjʊərəns/",
+    "meaning": "n. 忍耐力；耐久力",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "energetic",
+    "phonetic": "/ˌenəˈdʒetɪk/",
+    "meaning": "adj. 精力充沛的；充满活力的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "engagement",
+    "phonetic": "/ɪnˈɡeɪdʒmənt/",
+    "meaning": "n. 订婚；约会；交战",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "enhance",
+    "phonetic": "/ɪnˈhɑːns/",
+    "meaning": "v. 提高；增强；增进",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "enlighten",
+    "phonetic": "/ɪnˈlaɪtn/",
+    "meaning": "v. 启发；启迪；开导",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "enormous",
+    "phonetic": "/ɪˈnɔːməs/",
+    "meaning": "adj. 巨大的；庞大的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "enrich",
+    "phonetic": "/ɪnˈrɪtʃ/",
+    "meaning": "v. 丰富；充实；使富裕",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "enroll",
+    "phonetic": "/ɪnˈrəʊl/",
+    "meaning": "v. 登记；注册；入伍",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "ensue",
+    "phonetic": "/ɪnˈsjuː/",
+    "meaning": "v. 接着发生；随之而来",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "entail",
+    "phonetic": "/ɪnˈteɪl/",
+    "meaning": "v. 需要；必然涉及；使必要",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "enterprise",
+    "phonetic": "/ˈentəpraɪz/",
+    "meaning": "n. 企业；事业心；进取心",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "enthusiasm",
+    "phonetic": "/ɪnˈθjuːziæzəm/",
+    "meaning": "n. 热情；热心；热忱",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "enthusiastic",
+    "phonetic": "/ɪnˌθjuːziˈæstɪk/",
+    "meaning": "adj. 热情的；热心的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "entity",
+    "phonetic": "/ˈentəti/",
+    "meaning": "n. 实体；存在",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "entrepreneur",
+    "phonetic": "/ˌɒntrəprəˈnɜː(r)/",
+    "meaning": "n. 企业家",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "envisage",
+    "phonetic": "/ɪnˈvɪzɪdʒ/",
+    "meaning": "v. 设想；想象；展望",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "epidemic",
+    "phonetic": "/ˌepɪˈdemɪk/",
+    "meaning": "n. 流行病 adj. 流行的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "epoch",
+    "phonetic": "/ˈiːpɒk/",
+    "meaning": "n. 时代；纪元",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "equation",
+    "phonetic": "/ɪˈkweɪʒn/",
+    "meaning": "n. 方程；等式",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "erase",
+    "phonetic": "/ɪˈreɪz/",
+    "meaning": "v. 擦掉；抹去；消除",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "erect",
+    "phonetic": "/ɪˈrekt/",
+    "meaning": "v. 建立；竖立 adj. 直立的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "erosion",
+    "phonetic": "/ɪˈrəʊʒn/",
+    "meaning": "n. 侵蚀；腐蚀；削弱",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "erroneous",
+    "phonetic": "/ɪˈrəʊniəs/",
+    "meaning": "adj. 错误的；不正确的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "erupt",
+    "phonetic": "/ɪˈrʌpt/",
+    "meaning": "v. 爆发；喷发",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "escalate",
+    "phonetic": "/ˈeskəleɪt/",
+    "meaning": "v. 逐步升级；加剧",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "escort",
+    "phonetic": "/ˈeskɔːt/",
+    "meaning": "n. 护送者 v. 护送",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "essence",
+    "phonetic": "/ˈesns/",
+    "meaning": "n. 本质；实质；精华",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "esteem",
+    "phonetic": "/ɪˈstiːm/",
+    "meaning": "n./v. 尊敬；尊重",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "esthetic",
+    "phonetic": "/iːsˈθetɪk/",
+    "meaning": "adj. 美学的；审美的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "eternal",
+    "phonetic": "/ɪˈtɜːnl/",
+    "meaning": "adj. 永恒的；永久的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "evacuate",
+    "phonetic": "/ɪˈvækjueɪt/",
+    "meaning": "v. 疏散；撤离；排空",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "evaporate",
+    "phonetic": "/ɪˈvæpəreɪt/",
+    "meaning": "v. 蒸发；挥发；消失",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "evoke",
+    "phonetic": "/ɪˈvəʊk/",
+    "meaning": "v. 唤起；引起；激发",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "exceed",
+    "phonetic": "/ɪkˈsiːd/",
+    "meaning": "v. 超过；超越；超出",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "excel",
+    "phonetic": "/ɪkˈsel/",
+    "meaning": "v. 擅长；胜过；突出",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "exceptional",
+    "phonetic": "/ɪkˈsepʃənl/",
+    "meaning": "adj. 例外的；杰出的；非凡的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "excerpt",
+    "phonetic": "/ˈeksɜːpt/",
+    "meaning": "n. 摘录；节选",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "execution",
+    "phonetic": "/ˌeksɪˈkjuːʃn/",
+    "meaning": "n. 执行；实施；处决",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "exempt",
+    "phonetic": "/ɪɡˈzempt/",
+    "meaning": "v. 免除 adj. 被免除的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "exile",
+    "phonetic": "/ˈeksaɪl/",
+    "meaning": "n./v. 流放；放逐",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "exotic",
+    "phonetic": "/ɪɡˈzɒtɪk/",
+    "meaning": "adj. 异国风情的；奇异的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "expedition",
+    "phonetic": "/ˌekspəˈdɪʃn/",
+    "meaning": "n. 远征；探险队",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "expel",
+    "phonetic": "/ɪkˈspel/",
+    "meaning": "v. 驱逐；开除；排出",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "expend",
+    "phonetic": "/ɪkˈspend/",
+    "meaning": "v. 花费；消耗；支出",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "expenditure",
+    "phonetic": "/ɪkˈspendɪtʃə(r)/",
+    "meaning": "n. 支出；花费；经费",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "experimental",
+    "phonetic": "/ɪkˌsperɪˈmentl/",
+    "meaning": "adj. 实验的；试验性的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "expertise",
+    "phonetic": "/ˌekspɜːˈtiːz/",
+    "meaning": "n. 专门知识；专长",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "expire",
+    "phonetic": "/ɪkˈspaɪə(r)/",
+    "meaning": "v. 到期；期满；终止",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  },
+  {
+    "word": "explicit",
+    "phonetic": "/ɪkˈsplɪsɪt/",
+    "meaning": "adj. 明确的；清楚的；直言的",
+    "collocations": "",
+    "frequency": "high",
+    "level": "cet6"
+  }
+]
