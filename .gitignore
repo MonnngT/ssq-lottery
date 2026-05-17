@@ -3,3 +3,4 @@ __pycache__/
 .env
 .lottery_cache/
 .streamlit/secrets.toml
+vocab/data/quiz_records.json

@@ -1,10 +1,37 @@
 """CET-4/6 Vocabulary Learning App — Streamlit"""
 
 import streamlit as st
+import json
 import random
 from datetime import date
+from pathlib import Path
 
 from vocab import load_words, get_list_info, daily_words, WORD_LISTS
+
+STORAGE_FILE = Path(__file__).parent / "vocab" / "data" / "quiz_records.json"
+
+
+def load_quiz_records():
+    """Load persisted quiz history and tested words from JSON file."""
+    if STORAGE_FILE.exists():
+        try:
+            with open(STORAGE_FILE, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            return data.get("quiz_history", []), set(data.get("quiz_tested_words", []))
+        except (json.JSONDecodeError, OSError):
+            pass
+    return [], set()
+
+
+def save_quiz_records():
+    """Persist quiz history and tested words to JSON file."""
+    STORAGE_FILE.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "quiz_history": st.session_state.quiz_history,
+        "quiz_tested_words": sorted(st.session_state.quiz_tested_words),
+    }
+    with open(STORAGE_FILE, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
 
 # ── Page Config ────────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -38,44 +65,6 @@ st.markdown("""
     .word-card .word { font-size: 28px; font-weight: 700; }
     .word-card .phonetic { font-size: 16px; opacity: 0.85; margin-left: 12px; }
     .word-card .meaning { font-size: 16px; margin-top: 8px; opacity: 0.95; }
-
-    /* Flashcard */
-    .flashcard {
-        background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-        border: 2px solid #667eea;
-        border-radius: 20px;
-        padding: 60px 40px;
-        text-align: center;
-        cursor: pointer;
-        min-height: 300px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        transition: transform 0.3s, box-shadow 0.3s;
-        user-select: none;
-    }
-    .flashcard:hover {
-        transform: scale(1.02);
-        box-shadow: 0 12px 40px rgba(102, 126, 234, 0.3);
-    }
-    .flashcard .en-word { font-size: 48px; font-weight: 700; color: #fff; }
-    .flashcard .phonetic { font-size: 20px; color: #a0a0c0; margin-top: 8px; }
-    .flashcard .cn-meaning { font-size: 28px; color: #f0c040; margin-top: 16px; }
-    .flashcard .collocation { font-size: 16px; color: #80b0ff; margin-top: 8px; }
-    .flashcard .flip-hint { font-size: 14px; color: #888; margin-top: 24px; }
-
-    /* Speak button */
-    .speak-btn {
-        display: inline-block;
-        width: 36px; height: 36px;
-        line-height: 36px; text-align: center;
-        background: #667eea; color: #fff;
-        border-radius: 50%; cursor: pointer;
-        font-size: 18px; margin-left: 8px;
-        transition: background 0.2s;
-    }
-    .speak-btn:hover { background: #764ba2; }
 
     /* Stats */
     .stat-box {
@@ -154,14 +143,12 @@ def speak_button(word: str, key_suffix: str = ""):
 
 
 # ── Session State Init ─────────────────────────────────────────────────────────
-if "flashcard_index" not in st.session_state:
-    st.session_state.flashcard_index = 0
-if "flashcard_show_cn" not in st.session_state:
-    st.session_state.flashcard_show_cn = False
-if "flashcard_words" not in st.session_state:
-    st.session_state.flashcard_words = []
-if "flashcard_known" not in st.session_state:
-    st.session_state.flashcard_known = set()
+if "quiz_records_loaded" not in st.session_state:
+    history, tested = load_quiz_records()
+    st.session_state.quiz_history = history
+    st.session_state.quiz_tested_words = tested
+    st.session_state.quiz_records_loaded = True
+
 if "quiz_started" not in st.session_state:
     st.session_state.quiz_started = False
 if "quiz_questions" not in st.session_state:
@@ -172,10 +159,6 @@ if "quiz_score" not in st.session_state:
     st.session_state.quiz_score = 0
 if "quiz_answers" not in st.session_state:
     st.session_state.quiz_answers = []
-if "quiz_tested_words" not in st.session_state:
-    st.session_state.quiz_tested_words = set()
-if "quiz_history" not in st.session_state:
-    st.session_state.quiz_history = []
 if "browse_shuffle" not in st.session_state:
     st.session_state.browse_shuffle = True  # default to shuffle mode
 
@@ -231,9 +214,8 @@ with st.sidebar:
     )
 
 # ── Tabs ───────────────────────────────────────────────────────────────────────
-tab1, tab2, tab3, tab4 = st.tabs([
+tab1, tab2, tab3 = st.tabs([
     "📖 浏览单词",
-    "🃏 闪卡模式",
     "📝 测验模式",
     "📅 每日单词",
 ])
@@ -299,112 +281,9 @@ with tab1:
                     speak_button(w['word'], key_suffix=f"browse_{idx}")
 
 # =============================================================
-# TAB 2: Flashcard Mode
+# TAB 2: Quiz Mode
 # =============================================================
 with tab2:
-    st.markdown("## 🃏 闪卡模式")
-
-    if not words:
-        st.warning("请先在侧边栏选择词库。")
-    else:
-        # Init flashcards
-        if not st.session_state.flashcard_words:
-            shuffled = words.copy()
-            random.shuffle(shuffled)
-            st.session_state.flashcard_words = shuffled
-            st.session_state.flashcard_index = 0
-            st.session_state.flashcard_show_cn = False
-            st.session_state.flashcard_known = set()
-
-        total = len(st.session_state.flashcard_words)
-        current_idx = st.session_state.flashcard_index
-
-        if current_idx >= total:
-            # Completed all words
-            st.balloons()
-            st.success(f"🎉 已完成全部 {total} 个单词！")
-
-            known_count = len(st.session_state.flashcard_known)
-            st.markdown(f"### 统计: 认识 {known_count}/{total} 个单词")
-
-            if st.button("🔄 重新开始", use_container_width=True):
-                st.session_state.flashcard_words = []
-                st.session_state.flashcard_index = 0
-                st.session_state.flashcard_show_cn = False
-                st.session_state.flashcard_known = set()
-                st.rerun()
-        else:
-            w = st.session_state.flashcard_words[current_idx]
-
-            # Progress
-            progress_pct = current_idx / total
-            st.progress(progress_pct)
-            st.caption(f"进度: {current_idx + 1} / {total}")
-
-            # Flashcard
-            show_cn = st.session_state.flashcard_show_cn
-            known_words = st.session_state.flashcard_known
-
-            card_col1, card_col2, card_col3 = st.columns([1, 3, 1])
-
-            with card_col2:
-                if not show_cn:
-                    # Front of card (English)
-                    st.markdown(f"""
-                    <div class="flashcard" id="flashcard">
-                        <div class="en-word">{w['word']}</div>
-                        <div class="phonetic">{w['phonetic']}</div>
-                        <div class="flip-hint">👆 点击下方按钮翻转</div>
-                    </div>
-                    """, unsafe_allow_html=True)
-                else:
-                    # Back of card (Chinese + details)
-                    st.markdown(f"""
-                    <div class="flashcard" id="flashcard">
-                        <div class="en-word">{w['word']}</div>
-                        <div class="phonetic">{w['phonetic']}</div>
-                        <div class="cn-meaning">{w['meaning']}</div>
-                        {f'<div class="collocation">{w["collocations"]}</div>' if w.get('collocations') else ''}
-                    </div>
-                    """, unsafe_allow_html=True)
-
-            # Buttons
-            btn_col1, btn_col2, btn_col3, btn_col4 = st.columns(4)
-
-            with btn_col1:
-                speak_button(w['word'], key_suffix="fc")
-
-            with btn_col2:
-                if not show_cn:
-                    if st.button("🔄 翻转查看", key="fc_flip", use_container_width=True):
-                        st.session_state.flashcard_show_cn = True
-                        st.rerun()
-
-            with btn_col3:
-                if show_cn:
-                    if st.button("✅ 认识了", key="fc_know", use_container_width=True):
-                        st.session_state.flashcard_known.add(w['word'])
-                        st.session_state.flashcard_index += 1
-                        st.session_state.flashcard_show_cn = False
-                        st.rerun()
-
-            with btn_col4:
-                if show_cn:
-                    if st.button("❌ 不认识", key="fc_unknown", use_container_width=True):
-                        # Add back to the end for review
-                        st.session_state.flashcard_words.append(w)
-                        st.session_state.flashcard_index += 1
-                        st.session_state.flashcard_show_cn = False
-                        st.rerun()
-
-            # Stats
-            known_count = len(known_words)
-            st.markdown(f"✅ 认识: **{known_count}** | 📝 剩余: **{total - current_idx - 1}**")
-
-# =============================================================
-# TAB 3: Quiz Mode
-# =============================================================
-with tab3:
     st.markdown("## 📝 测验模式")
 
     if not words:
@@ -471,10 +350,6 @@ with tab3:
                 random.shuffle(pool)
                 pool = pool[:quiz_count_actual]
 
-                # Mark these words as tested
-                for w in pool:
-                    st.session_state.quiz_tested_words.add(w['word'])
-
                 questions = []
                 for w in pool:
                     wrongs = [x for x in words if x['word'] != w['word']]
@@ -530,6 +405,7 @@ with tab3:
                 if not st.session_state.get("_quiz_result_saved", False):
                     st.session_state.quiz_history.append(result)
                     st.session_state._quiz_result_saved = True
+                    save_quiz_records()
 
                 st.balloons()
                 st.markdown(f"## 🎉 测验完成！")
@@ -569,6 +445,7 @@ with tab3:
                     if st.button("🔁 重置所有记录", use_container_width=True):
                         st.session_state.quiz_tested_words = set()
                         st.session_state.quiz_history = []
+                        save_quiz_records()
                         st.session_state.quiz_started = False
                         st.session_state.quiz_questions = []
                         st.session_state.quiz_current = 0
@@ -646,6 +523,7 @@ with tab3:
                         correct = i == q["correct_idx"]
                         if correct:
                             st.session_state.quiz_score += 1
+                        st.session_state.quiz_tested_words.add(w['word'])
                         st.session_state.quiz_answers.append({
                             "word": w,
                             "user_choice": opt,
@@ -672,6 +550,7 @@ with tab3:
                             "answers": st.session_state.quiz_answers.copy(),
                         }
                         st.session_state.quiz_history.append(partial_result)
+                        save_quiz_records()
                     st.session_state.quiz_started = False
                     st.session_state.quiz_questions = []
                     st.session_state.quiz_current = 0
@@ -681,9 +560,9 @@ with tab3:
                     st.rerun()
 
 # =============================================================
-# TAB 4: Daily Words
+# TAB 3: Daily Words
 # =============================================================
-with tab4:
+with tab3:
     st.markdown("## 📅 每日单词")
 
     if not words:
