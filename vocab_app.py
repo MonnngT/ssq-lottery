@@ -1,37 +1,11 @@
 """CET-4/6 Vocabulary Learning App — Streamlit"""
 
 import streamlit as st
-import json
 import random
 from datetime import date
-from pathlib import Path
 
 from vocab import load_words, get_list_info, daily_words, WORD_LISTS
-
-STORAGE_FILE = Path(__file__).parent / "vocab" / "data" / "quiz_records.json"
-
-
-def load_quiz_records():
-    """Load persisted quiz history and tested words from JSON file."""
-    if STORAGE_FILE.exists():
-        try:
-            with open(STORAGE_FILE, "r", encoding="utf-8") as f:
-                data = json.load(f)
-            return data.get("quiz_history", []), set(data.get("quiz_tested_words", []))
-        except (json.JSONDecodeError, OSError):
-            pass
-    return [], set()
-
-
-def save_quiz_records():
-    """Persist quiz history and tested words to JSON file."""
-    STORAGE_FILE.parent.mkdir(parents=True, exist_ok=True)
-    payload = {
-        "quiz_history": st.session_state.quiz_history,
-        "quiz_tested_words": sorted(st.session_state.quiz_tested_words),
-    }
-    with open(STORAGE_FILE, "w", encoding="utf-8") as f:
-        json.dump(payload, f, ensure_ascii=False, indent=2)
+from vocab.quiz_storage import load_quiz_records, save_quiz_records
 
 # ── Page Config ────────────────────────────────────────────────────────────────
 st.set_page_config(
