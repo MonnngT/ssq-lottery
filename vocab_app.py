@@ -172,6 +172,12 @@ if "quiz_score" not in st.session_state:
     st.session_state.quiz_score = 0
 if "quiz_answers" not in st.session_state:
     st.session_state.quiz_answers = []
+if "quiz_tested_words" not in st.session_state:
+    st.session_state.quiz_tested_words = set()
+if "quiz_history" not in st.session_state:
+    st.session_state.quiz_history = []
+if "browse_shuffle" not in st.session_state:
+    st.session_state.browse_shuffle = False
 
 
 # ── Sidebar ────────────────────────────────────────────────────────────────────
@@ -242,7 +248,7 @@ with tab1:
         st.warning("请先在侧边栏选择词库。")
     else:
         # Filter by search
-        col_a, col_b, col_c = st.columns([2, 1, 1])
+        col_a, col_b, col_c, col_d = st.columns([1.5, 1, 1, 1])
         with col_a:
             if search_term:
                 filtered = [w for w in words if search_term.lower() in w["word"].lower()]
@@ -251,13 +257,22 @@ with tab1:
                 filtered = words
 
         with col_b:
-            letter = st.selectbox("按字母筛选", ["全部"] + [chr(i) for i in range(65, 91)])
+            letter = st.selectbox("按字母筛选", ["全部"] + [chr(i) for i in range(65, 91)], key="browse_letter")
 
         if letter != "全部":
             filtered = [w for w in filtered if w["word"].upper().startswith(letter)]
 
         with col_c:
-            page_size = st.selectbox("每页显示", [20, 50, 100], index=0)
+            page_size = st.selectbox("每页显示", [20, 50, 100], index=0, key="browse_page_size")
+
+        with col_d:
+            shuffle = st.checkbox("🔀 乱序展示", value=st.session_state.browse_shuffle, key="browse_shuffle_cb")
+            if shuffle != st.session_state.browse_shuffle:
+                st.session_state.browse_shuffle = shuffle
+                st.rerun()
+            if st.session_state.browse_shuffle:
+                random.seed(42)  # consistent shuffle within session
+                random.shuffle(filtered)
 
         # Pagination
         total_pages = max(1, (len(filtered) + page_size - 1) // page_size)
@@ -395,6 +410,26 @@ with tab3:
     if not words:
         st.warning("请先在侧边栏选择词库。")
     else:
+        # ── Quiz History (always visible) ──
+        if st.session_state.quiz_history:
+            with st.expander(f"📊 测验记录 ({len(st.session_state.quiz_history)} 次)", expanded=False):
+                for j, record in enumerate(reversed(st.session_state.quiz_history)):
+                    rcol1, rcol2, rcol3 = st.columns([2, 1, 1])
+                    with rcol1:
+                        st.markdown(f"**{len(st.session_state.quiz_history) - j}. {record['date']}** — {record['quiz_type']}")
+                        st.markdown(f"得分: {record['score']}/{record['total']} ({record['percentage']}%)")
+                    with rcol2:
+                        correct_count = sum(1 for a in record['answers'] if a['correct'])
+                        wrong_count = len(record['answers']) - correct_count
+                        st.markdown(f"✅ {correct_count}  |  ❌ {wrong_count}")
+                    with rcol3:
+                        # Show wrong words preview
+                        wrongs = [a for a in record['answers'] if not a['correct']]
+                        if wrongs:
+                            wrong_words = ", ".join(a['word']['word'] for a in wrongs[:5])
+                            st.caption(f"错词: {wrong_words}{'...' if len(wrongs) > 5 else ''}")
+                    st.divider()
+
         quiz_col1, quiz_col2 = st.columns([2, 1])
 
         with quiz_col1:
@@ -403,16 +438,41 @@ with tab3:
         with quiz_col2:
             quiz_count = st.selectbox("题目数量", [10, 20, 30], index=0)
 
+        # Show tested count and remaining
+        tested_count = len(st.session_state.quiz_tested_words)
+        remaining = max(0, len(words) - tested_count)
+        st.caption(f"📊 已测: {tested_count} 个 | 剩余: {remaining} 个")
+
         if not st.session_state.quiz_started:
             if st.button("🚀 开始测验", use_container_width=True, type="primary"):
-                # Generate questions
-                pool = words.copy()
+                # Generate questions — exclude previously tested words
+                tested = st.session_state.quiz_tested_words
+                available = [w for w in words if w['word'] not in tested]
+
+                if len(available) < quiz_count:
+                    # Not enough new words — offer to reset
+                    if len(available) == 0:
+                        st.warning("🎉 词库中所有单词都已测过！请先重置测验记录。")
+                        if st.button("🔄 重置测验记录", use_container_width=True):
+                            st.session_state.quiz_tested_words = set()
+                            st.rerun()
+                        st.stop()
+                    else:
+                        st.info(f"只有 {len(available)} 个新单词可用，将全部使用。")
+                        quiz_count_actual = len(available)
+                else:
+                    quiz_count_actual = quiz_count
+
+                pool = available.copy()
                 random.shuffle(pool)
-                pool = pool[:quiz_count]
+                pool = pool[:quiz_count_actual]
+
+                # Mark these words as tested
+                for w in pool:
+                    st.session_state.quiz_tested_words.add(w['word'])
 
                 questions = []
                 for w in pool:
-                    # Get 3 wrong answers
                     wrongs = [x for x in words if x['word'] != w['word']]
                     wrong_pool = random.sample(wrongs, min(3, len(wrongs)))
 
@@ -445,16 +505,30 @@ with tab3:
             cur = st.session_state.quiz_current
 
             if cur >= len(qs):
-                # Quiz finished
-                st.balloons()
+                # Quiz finished — save to history
                 score = st.session_state.quiz_score
                 total_q = len(qs)
                 pct = score / total_q * 100 if total_q > 0 else 0
 
+                # Save result to history (only if not already saved from this run)
+                result = {
+                    "date": date.today().isoformat(),
+                    "score": score,
+                    "total": total_q,
+                    "percentage": round(pct, 1),
+                    "quiz_type": quiz_type,
+                    "answers": st.session_state.quiz_answers.copy(),
+                }
+
+                # Avoid duplicate saves on rerun
+                if not st.session_state.get("_quiz_result_saved", False):
+                    st.session_state.quiz_history.append(result)
+                    st.session_state._quiz_result_saved = True
+
+                st.balloons()
                 st.markdown(f"## 🎉 测验完成！")
                 st.markdown(f"### 得分: {score}/{total_q} ({pct:.0f}%)")
 
-                # Progress bar
                 if pct >= 80:
                     st.success("太棒了！继续保持！")
                 elif pct >= 60:
@@ -475,13 +549,27 @@ with tab3:
                         """)
                         speak_button(w['word'], key_suffix=f"quiz_review_{i}")
 
-                if st.button("🔄 重新测验", use_container_width=True):
-                    st.session_state.quiz_started = False
-                    st.session_state.quiz_questions = []
-                    st.session_state.quiz_current = 0
-                    st.session_state.quiz_score = 0
-                    st.session_state.quiz_answers = []
-                    st.rerun()
+                btn_r1, btn_r2 = st.columns(2)
+                with btn_r1:
+                    if st.button("🔄 继续测验(新单词)", use_container_width=True):
+                        st.session_state.quiz_started = False
+                        st.session_state.quiz_questions = []
+                        st.session_state.quiz_current = 0
+                        st.session_state.quiz_score = 0
+                        st.session_state.quiz_answers = []
+                        st.session_state._quiz_result_saved = False
+                        st.rerun()
+                with btn_r2:
+                    if st.button("🔁 重置所有记录", use_container_width=True):
+                        st.session_state.quiz_tested_words = set()
+                        st.session_state.quiz_history = []
+                        st.session_state.quiz_started = False
+                        st.session_state.quiz_questions = []
+                        st.session_state.quiz_current = 0
+                        st.session_state.quiz_score = 0
+                        st.session_state.quiz_answers = []
+                        st.session_state._quiz_result_saved = False
+                        st.rerun()
             else:
                 # Current question
                 q = qs[cur]
@@ -523,11 +611,23 @@ with tab3:
                 # Quit button
                 st.divider()
                 if st.button("⏹ 结束测验", key="quiz_quit"):
+                    # Save partial result to history
+                    if st.session_state.quiz_answers and not st.session_state.get("_quiz_result_saved", False):
+                        partial_result = {
+                            "date": date.today().isoformat(),
+                            "score": st.session_state.quiz_score,
+                            "total": len(st.session_state.quiz_answers),
+                            "percentage": round(st.session_state.quiz_score / max(1, len(st.session_state.quiz_answers)) * 100, 1),
+                            "quiz_type": quiz_type,
+                            "answers": st.session_state.quiz_answers.copy(),
+                        }
+                        st.session_state.quiz_history.append(partial_result)
                     st.session_state.quiz_started = False
                     st.session_state.quiz_questions = []
                     st.session_state.quiz_current = 0
                     st.session_state.quiz_score = 0
                     st.session_state.quiz_answers = []
+                    st.session_state._quiz_result_saved = False
                     st.rerun()
 
 # =============================================================
