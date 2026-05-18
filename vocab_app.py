@@ -97,7 +97,7 @@ def speak_button(word: str, key_suffix: str = ""):
         (function() {{
             var u = new SpeechSynthesisUtterance('{clean_word}');
             u.lang = 'en-US';
-            u.rate = 0.75;
+            u.rate = 0.85;
             u.pitch = 1.1;
             var voices = speechSynthesis.getVoices();
             var fem = voices.find(function(v) {{
@@ -347,7 +347,7 @@ with tab1:
 
                     const u = new SpeechSynthesisUtterance(words[wi]);
                     u.lang = 'en-US';
-                    u.rate = 0.7;
+                    u.rate = 0.82;
                     u.pitch = 1.05;
                     if (raVoice) u.voice = raVoice;
                     u.onend = function() {{
@@ -356,7 +356,7 @@ with tab1:
                             raTimeout = setTimeout(function() {{
                                 speechSynthesis.cancel();
                                 const u2 = new SpeechSynthesisUtterance(words[wi]);
-                                u2.lang = 'en-US'; u2.rate = 0.7; u2.pitch = 1.05;
+                                u2.lang = 'en-US'; u2.rate = 0.82; u2.pitch = 1.05;
                                 if (raVoice) u2.voice = raVoice;
                                 speechSynthesis.speak(u2);
                             }}, 500);
@@ -658,7 +658,7 @@ with tab2:
                     <script>
                         (function() {{
                             var u = new SpeechSynthesisUtterance('{clean_word}');
-                            u.lang = 'en-US'; u.rate = 0.7; u.pitch = 1.05;
+                            u.lang = 'en-US'; u.rate = 0.82; u.pitch = 1.05;
                             var voices = speechSynthesis.getVoices();
                             var fem = voices.find(function(v) {{
                                 return v.lang.startsWith('en') && (
@@ -672,7 +672,7 @@ with tab2:
                             document.getElementById('hidden-word').addEventListener('click', function() {{
                                 speechSynthesis.cancel();
                                 var u2 = new SpeechSynthesisUtterance('{clean_word}');
-                                u2.lang = 'en-US'; u2.rate = 0.7; u2.pitch = 1.05;
+                                u2.lang = 'en-US'; u2.rate = 0.82; u2.pitch = 1.05;
                                 if (fem) u2.voice = fem;
                                 speechSynthesis.speak(u2);
                             }});
