@@ -272,13 +272,13 @@ with tab1:
             .ra-status {{ font-size: 13px; color: #667eea; font-weight: 500; }}
         </style>
         <div class="ra-ctrl">
-            <button class="ra-btn ra-play" id="ra-play" onclick="startReading()">🔊 朗读本页</button>
-            <button class="ra-btn ra-stop" id="ra-stop" onclick="stopReading()" style="display:none;">⏹ 停止</button>
+            <button class="ra-btn ra-play" id="ra-play" onclick="startOrResume()">🔊 朗读本页</button>
+            <button class="ra-btn ra-stop" id="ra-stop" onclick="pauseReading()" style="display:none;">⏸ 暂停</button>
             <label>每词读
             <select id="ra-repeat">
-                <option value="1">1</option>
+                <option value="1" selected>1</option>
                 <option value="2">2</option>
-                <option value="3" selected>3</option>
+                <option value="3">3</option>
                 <option value="4">4</option>
                 <option value="5">5</option>
             </select> 遍</label>
@@ -288,10 +288,13 @@ with tab1:
         <script>
             const allWords = {words_json_str};
             let raReading = false;
+            let raPaused = false;
             let raTimeout = null;
             let raVoice = null;
+            let raWords = [];
+            let raWi = 0, raRc = 0, raRepeat = 1;
+            let raStarted = false;
 
-            // Load female English voice
             function loadRaVoice() {{
                 const voices = speechSynthesis.getVoices();
                 if (voices.length) {{
@@ -306,66 +309,98 @@ with tab1:
             loadRaVoice();
             speechSynthesis.onvoiceschanged = loadRaVoice;
 
-            function stopReading() {{
-                raReading = false;
-                speechSynthesis.cancel();
-                if (raTimeout) clearTimeout(raTimeout);
-                document.getElementById('ra-play').style.display = '';
-                document.getElementById('ra-stop').style.display = 'none';
-                document.getElementById('ra-status').textContent = '';
+            function buildWords() {{
+                raRepeat = parseInt(document.getElementById('ra-repeat').value);
+                const doShuffle = document.getElementById('ra-shuffle').checked;
+                raWords = [...allWords];
+                if (doShuffle) {{
+                    for (let i = raWords.length - 1; i > 0; i--) {{
+                        const j = Math.floor(Math.random() * (i + 1));
+                        [raWords[i], raWords[j]] = [raWords[j], raWords[i]];
+                    }}
+                }}
             }}
 
-            function startReading() {{
+            function updateUI(reading, paused) {{
+                const playBtn = document.getElementById('ra-play');
+                const stopBtn = document.getElementById('ra-stop');
+                if (reading) {{
+                    playBtn.style.display = 'none';
+                    stopBtn.style.display = '';
+                    stopBtn.textContent = '⏸ 暂停';
+                }} else if (paused) {{
+                    playBtn.style.display = '';
+                    playBtn.textContent = '🔊 继续';
+                    stopBtn.style.display = 'none';
+                }} else {{
+                    playBtn.style.display = '';
+                    playBtn.textContent = '🔊 朗读本页';
+                    stopBtn.style.display = 'none';
+                }}
+            }}
+
+            function pauseReading() {{
+                raReading = false;
+                raPaused = true;
+                speechSynthesis.cancel();
+                if (raTimeout) clearTimeout(raTimeout);
+                updateUI(false, true);
+                document.getElementById('ra-status').textContent =
+                    '⏸ 已暂停 (' + (raWi + 1) + '/' + raWords.length + ')';
+            }}
+
+            function startOrResume() {{
                 if (raReading) return;
                 if (!allWords.length) return;
                 raReading = true;
-                document.getElementById('ra-play').style.display = 'none';
-                document.getElementById('ra-stop').style.display = '';
 
-                const repeat = parseInt(document.getElementById('ra-repeat').value);
-                const shuffle = document.getElementById('ra-shuffle').checked;
-                let words = [...allWords];
-                if (shuffle) {{
-                    for (let i = words.length - 1; i > 0; i--) {{
-                        const j = Math.floor(Math.random() * (i + 1));
-                        [words[i], words[j]] = [words[j], words[i]];
-                    }}
+                if (!raStarted || !raPaused) {{
+                    // Fresh start
+                    buildWords();
+                    raWi = 0; raRc = 0;
                 }}
+                // If paused, raWi/raRc are preserved — resume from there
 
-                let wi = 0, rc = 0;
+                raPaused = false;
+                raStarted = true;
+                updateUI(true, false);
+
                 function speakNext() {{
-                    if (!raReading || wi >= words.length) {{
-                        if (raReading) document.getElementById('ra-status').textContent = '✅ 朗读完成';
+                    if (!raReading || raWi >= raWords.length) {{
+                        if (raReading) {{
+                            document.getElementById('ra-status').textContent = '✅ 朗读完成';
+                            raStarted = false;
+                        }}
                         raReading = false;
-                        document.getElementById('ra-play').style.display = '';
-                        document.getElementById('ra-stop').style.display = 'none';
+                        raPaused = false;
+                        updateUI(false, false);
                         return;
                     }}
                     document.getElementById('ra-status').textContent =
-                        '🔊 ' + (wi + 1) + '/' + words.length + ' ' + words[wi] +
-                        (repeat > 1 ? ' (' + (rc + 1) + '/' + repeat + ')' : '');
+                        '🔊 ' + (raWi + 1) + '/' + raWords.length + ' ' + raWords[raWi] +
+                        (raRepeat > 1 ? ' (' + (raRc + 1) + '/' + raRepeat + ')' : '');
 
-                    const u = new SpeechSynthesisUtterance(words[wi]);
+                    const u = new SpeechSynthesisUtterance(raWords[raWi]);
                     u.lang = 'en-US';
                     u.rate = 0.82;
                     u.pitch = 1.05;
                     if (raVoice) u.voice = raVoice;
                     u.onend = function() {{
-                        rc++;
-                        if (rc < repeat) {{
+                        raRc++;
+                        if (raRc < raRepeat) {{
                             raTimeout = setTimeout(function() {{
                                 speechSynthesis.cancel();
-                                const u2 = new SpeechSynthesisUtterance(words[wi]);
+                                const u2 = new SpeechSynthesisUtterance(raWords[raWi]);
                                 u2.lang = 'en-US'; u2.rate = 0.82; u2.pitch = 1.05;
                                 if (raVoice) u2.voice = raVoice;
                                 speechSynthesis.speak(u2);
                             }}, 500);
                         }} else {{
-                            rc = 0; wi++;
+                            raRc = 0; raWi++;
                             raTimeout = setTimeout(speakNext, 700);
                         }}
                     }};
-                    u.onerror = function() {{ rc = 0; wi++; raTimeout = setTimeout(speakNext, 700); }};
+                    u.onerror = function() {{ raRc = 0; raWi++; raTimeout = setTimeout(speakNext, 700); }};
                     speechSynthesis.cancel();
                     speechSynthesis.speak(u);
                 }}
