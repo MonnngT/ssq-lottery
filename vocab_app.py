@@ -288,12 +288,11 @@ with tab1:
         <script>
             const allWords = {words_json_str};
             let raReading = false;
-            let raPaused = false;
             let raTimeout = null;
             let raVoice = null;
             let raWords = [];
             let raWi = 0, raRc = 0, raRepeat = 1;
-            let raStarted = false;
+            let raPauseIdx = -1;  // -1 = not paused, >=0 = paused at this word index
 
             function loadRaVoice() {{
                 const voices = speechSynthesis.getVoices();
@@ -321,30 +320,14 @@ with tab1:
                 }}
             }}
 
-            function updateUI(reading, paused) {{
-                const playBtn = document.getElementById('ra-play');
-                const stopBtn = document.getElementById('ra-stop');
-                if (reading) {{
-                    playBtn.style.display = 'none';
-                    stopBtn.style.display = '';
-                    stopBtn.textContent = '⏸ 暂停';
-                }} else if (paused) {{
-                    playBtn.style.display = '';
-                    playBtn.textContent = '🔊 继续';
-                    stopBtn.style.display = 'none';
-                }} else {{
-                    playBtn.style.display = '';
-                    playBtn.textContent = '🔊 朗读本页';
-                    stopBtn.style.display = 'none';
-                }}
-            }}
-
             function pauseReading() {{
                 raReading = false;
-                raPaused = true;
                 speechSynthesis.cancel();
                 if (raTimeout) clearTimeout(raTimeout);
-                updateUI(false, true);
+                raPauseIdx = raWi;  // remember position
+                document.getElementById('ra-play').style.display = '';
+                document.getElementById('ra-play').textContent = '🔊 继续';
+                document.getElementById('ra-stop').style.display = 'none';
                 document.getElementById('ra-status').textContent =
                     '⏸ 已暂停 (' + (raWi + 1) + '/' + raWords.length + ')';
             }}
@@ -354,26 +337,31 @@ with tab1:
                 if (!allWords.length) return;
                 raReading = true;
 
-                if (!raStarted || !raPaused) {{
+                if (raPauseIdx < 0) {{
                     // Fresh start
                     buildWords();
                     raWi = 0; raRc = 0;
+                }} else {{
+                    // Resume from pause
+                    raWi = raPauseIdx;
+                    raRc = 0;
+                    raPauseIdx = -1;
                 }}
-                // If paused, raWi/raRc are preserved — resume from there
 
-                raPaused = false;
-                raStarted = true;
-                updateUI(true, false);
+                document.getElementById('ra-play').style.display = 'none';
+                document.getElementById('ra-stop').style.display = '';
+                document.getElementById('ra-stop').textContent = '⏸ 暂停';
 
                 function speakNext() {{
                     if (!raReading || raWi >= raWords.length) {{
                         if (raReading) {{
                             document.getElementById('ra-status').textContent = '✅ 朗读完成';
-                            raStarted = false;
+                            raPauseIdx = -1;
                         }}
                         raReading = false;
-                        raPaused = false;
-                        updateUI(false, false);
+                        document.getElementById('ra-play').style.display = '';
+                        document.getElementById('ra-play').textContent = '🔊 朗读本页';
+                        document.getElementById('ra-stop').style.display = 'none';
                         return;
                     }}
                     document.getElementById('ra-status').textContent =
@@ -389,6 +377,7 @@ with tab1:
                         raRc++;
                         if (raRc < raRepeat) {{
                             raTimeout = setTimeout(function() {{
+                                if (!raReading) return;
                                 speechSynthesis.cancel();
                                 const u2 = new SpeechSynthesisUtterance(raWords[raWi]);
                                 u2.lang = 'en-US'; u2.rate = 0.82; u2.pitch = 1.05;
