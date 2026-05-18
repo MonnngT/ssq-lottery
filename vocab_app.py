@@ -97,7 +97,16 @@ def speak_button(word: str, key_suffix: str = ""):
         (function() {{
             var u = new SpeechSynthesisUtterance('{clean_word}');
             u.lang = 'en-US';
-            u.rate = 0.85;
+            u.rate = 0.75;
+            u.pitch = 1.1;
+            var voices = speechSynthesis.getVoices();
+            var fem = voices.find(function(v) {{
+                return v.lang.startsWith('en') && (
+                    v.name.indexOf('Female')>=0 || v.name.indexOf('Samantha')>=0 ||
+                    v.name.indexOf('Karen')>=0 || v.name.indexOf('Susan')>=0 ||
+                    v.name.indexOf('Moira')>=0 || v.name.indexOf('Victoria')>=0);
+            }}) || voices.find(function(v) {{ return v.lang.startsWith('en-US'); }});
+            if (fem) u.voice = fem;
             speechSynthesis.cancel();
             speechSynthesis.speak(u);
         }})();
@@ -135,6 +144,8 @@ if "quiz_answers" not in st.session_state:
     st.session_state.quiz_answers = []
 if "browse_shuffle" not in st.session_state:
     st.session_state.browse_shuffle = True  # default to shuffle mode
+if "browse_hide_mode" not in st.session_state:
+    st.session_state.browse_hide_mode = "全部显示"
 
 
 # ── Sidebar ────────────────────────────────────────────────────────────────────
@@ -203,32 +214,31 @@ with tab1:
     if not words:
         st.warning("请先在侧边栏选择词库。")
     else:
-        # Filter by search
-        col_a, col_b, col_c, col_d = st.columns([1.5, 1, 1, 1])
+        if search_term:
+            filtered = [w for w in words if search_term.lower() in w["word"].lower()]
+            st.info(f"🔍 搜索 \"{search_term}\" — 找到 {len(filtered)} 个结果")
+        else:
+            filtered = words
+
+        # Row 1: Filters
+        col_a, col_b, col_c, col_d = st.columns([1, 1, 1, 1.2])
         with col_a:
-            if search_term:
-                filtered = [w for w in words if search_term.lower() in w["word"].lower()]
-                st.info(f"搜索 \"{search_term}\" — 找到 {len(filtered)} 个结果")
-            else:
-                filtered = words
-
-        with col_b:
             letter = st.selectbox("按字母筛选", ["全部"] + [chr(i) for i in range(65, 91)], key="browse_letter")
-
         if letter != "全部":
             filtered = [w for w in filtered if w["word"].upper().startswith(letter)]
-
-        with col_c:
+        with col_b:
             page_size = st.selectbox("每页显示", [20, 50, 100], index=0, key="browse_page_size")
-
-        with col_d:
+        with col_c:
             shuffle = st.checkbox("🔀 乱序展示", value=st.session_state.browse_shuffle, key="browse_shuffle_cb")
             if shuffle != st.session_state.browse_shuffle:
                 st.session_state.browse_shuffle = shuffle
                 st.rerun()
             if st.session_state.browse_shuffle:
-                random.seed(42)  # consistent shuffle within session
+                random.seed(42)
                 random.shuffle(filtered)
+        with col_d:
+            hide_mode = st.selectbox("👁 显示模式", ["全部显示", "只显示英文", "只显示中文", "全部遮挡"], key="browse_hide_mode_sel")
+            st.session_state.browse_hide_mode = hide_mode
 
         # Pagination
         total_pages = max(1, (len(filtered) + page_size - 1) // page_size)
@@ -239,20 +249,202 @@ with tab1:
 
         st.caption(f"第 {page}/{total_pages} 页，显示第 {start + 1}-{min(end, len(filtered))} 个")
 
-        # Word list
+        # ── Read-All: self-contained HTML (no Streamlit rerun) ──
+        import json as _json
+        words_json_str = _json.dumps([w['word'] for w in page_words], ensure_ascii=False)
+        st.components.v1.html(f"""
+        <style>
+            .ra-btn {{
+                padding: 8px 20px; border: none; border-radius: 8px;
+                font-size: 15px; cursor: pointer; transition: all 0.2s;
+                color: #fff; white-space: nowrap;
+            }}
+            .ra-play {{ background: #667eea; }}
+            .ra-play:hover {{ background: #764ba2; }}
+            .ra-stop {{ background: #e74c3c; }}
+            .ra-stop:hover {{ background: #c0392b; }}
+            .ra-ctrl {{
+                display: flex; gap: 10px; align-items: center;
+                flex-wrap: wrap; padding: 8px 0;
+            }}
+            .ra-ctrl select {{ padding: 6px 10px; border-radius: 6px; border: 1px solid #ccc; font-size: 14px; }}
+            .ra-ctrl label {{ font-size: 14px; white-space: nowrap; }}
+            .ra-status {{ font-size: 13px; color: #667eea; font-weight: 500; }}
+        </style>
+        <div class="ra-ctrl">
+            <button class="ra-btn ra-play" id="ra-play" onclick="startReading()">🔊 朗读本页</button>
+            <button class="ra-btn ra-stop" id="ra-stop" onclick="stopReading()" style="display:none;">⏹ 停止</button>
+            <label>每词读
+            <select id="ra-repeat">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3" selected>3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select> 遍</label>
+            <label><input type="checkbox" id="ra-shuffle"> 🔀 乱序</label>
+            <span class="ra-status" id="ra-status"></span>
+        </div>
+        <script>
+            const allWords = {words_json_str};
+            let raReading = false;
+            let raTimeout = null;
+            let raVoice = null;
+
+            // Load female English voice
+            function loadRaVoice() {{
+                const voices = speechSynthesis.getVoices();
+                if (voices.length) {{
+                    raVoice = voices.find(function(v) {{
+                        return v.lang.startsWith('en') && (
+                            v.name.indexOf('Female')>=0 || v.name.indexOf('Samantha')>=0 ||
+                            v.name.indexOf('Karen')>=0 || v.name.indexOf('Susan')>=0 ||
+                            v.name.indexOf('Moira')>=0 || v.name.indexOf('Victoria')>=0);
+                    }}) || voices.find(function(v) {{ return v.lang.startsWith('en-US'); }});
+                }}
+            }}
+            loadRaVoice();
+            speechSynthesis.onvoiceschanged = loadRaVoice;
+
+            function stopReading() {{
+                raReading = false;
+                speechSynthesis.cancel();
+                if (raTimeout) clearTimeout(raTimeout);
+                document.getElementById('ra-play').style.display = '';
+                document.getElementById('ra-stop').style.display = 'none';
+                document.getElementById('ra-status').textContent = '';
+            }}
+
+            function startReading() {{
+                if (raReading) return;
+                if (!allWords.length) return;
+                raReading = true;
+                document.getElementById('ra-play').style.display = 'none';
+                document.getElementById('ra-stop').style.display = '';
+
+                const repeat = parseInt(document.getElementById('ra-repeat').value);
+                const shuffle = document.getElementById('ra-shuffle').checked;
+                let words = [...allWords];
+                if (shuffle) {{
+                    for (let i = words.length - 1; i > 0; i--) {{
+                        const j = Math.floor(Math.random() * (i + 1));
+                        [words[i], words[j]] = [words[j], words[i]];
+                    }}
+                }}
+
+                let wi = 0, rc = 0;
+                function speakNext() {{
+                    if (!raReading || wi >= words.length) {{
+                        if (raReading) document.getElementById('ra-status').textContent = '✅ 朗读完成';
+                        raReading = false;
+                        document.getElementById('ra-play').style.display = '';
+                        document.getElementById('ra-stop').style.display = 'none';
+                        return;
+                    }}
+                    document.getElementById('ra-status').textContent =
+                        '🔊 ' + (wi + 1) + '/' + words.length + ' ' + words[wi] +
+                        (repeat > 1 ? ' (' + (rc + 1) + '/' + repeat + ')' : '');
+
+                    const u = new SpeechSynthesisUtterance(words[wi]);
+                    u.lang = 'en-US';
+                    u.rate = 0.7;
+                    u.pitch = 1.05;
+                    if (raVoice) u.voice = raVoice;
+                    u.onend = function() {{
+                        rc++;
+                        if (rc < repeat) {{
+                            raTimeout = setTimeout(function() {{
+                                speechSynthesis.cancel();
+                                const u2 = new SpeechSynthesisUtterance(words[wi]);
+                                u2.lang = 'en-US'; u2.rate = 0.7; u2.pitch = 1.05;
+                                if (raVoice) u2.voice = raVoice;
+                                speechSynthesis.speak(u2);
+                            }}, 500);
+                        }} else {{
+                            rc = 0; wi++;
+                            raTimeout = setTimeout(speakNext, 700);
+                        }}
+                    }};
+                    u.onerror = function() {{ rc = 0; wi++; raTimeout = setTimeout(speakNext, 700); }};
+                    speechSynthesis.cancel();
+                    speechSynthesis.speak(u);
+                }}
+                speakNext();
+            }}
+        </script>
+        """, height=52)
+
+        # ── Word list ──
+        hide_mode = st.session_state.browse_hide_mode
         for i, w in enumerate(page_words):
             idx = start + i + 1
-            with st.expander(f"**{idx}. {w['word']}**  {w['phonetic']}  —  {w['meaning'][:40]}", expanded=False):
-                col1, col2 = st.columns([3, 1])
-                with col1:
-                    st.markdown(f"### {w['word']}")
-                    st.markdown(f"**音标**: {w['phonetic']}")
+
+            if hide_mode == "只显示英文":
+                label = f"**{idx}. {w['word']}**  {w['phonetic']}"
+            elif hide_mode == "只显示中文":
+                label = f"**{idx}.** {w['meaning'][:60]}"
+            elif hide_mode == "全部遮挡":
+                label = f"**{idx}.** 👆 点击查看"
+            else:
+                label = f"**{idx}. {w['word']}**  {w['phonetic']}  —  {w['meaning'][:40]}"
+
+            with st.expander(label, expanded=False):
+                if hide_mode == "只显示英文":
+                    col1, col2 = st.columns([3, 1])
+                    with col1:
+                        st.markdown(f"### {w['word']}")
+                        st.markdown(f"**音标**: {w['phonetic']}")
+                        st.caption(f"级别: {w['level'].upper()} | 词频: {w['frequency']}")
+                    with col2:
+                        speak_button(w['word'], key_suffix=f"browse_{idx}")
+
+                elif hide_mode == "只显示中文":
                     st.markdown(f"**释义**: {w['meaning']}")
                     if w.get("collocations"):
                         st.markdown(f"**搭配**: {w['collocations']}")
                     st.caption(f"级别: {w['level'].upper()} | 词频: {w['frequency']}")
-                with col2:
+
+                elif hide_mode == "全部遮挡":
+                    clean_word = w['word'].replace("'", "\\'").replace('"', '\\"')
+                    colloc_html = ""
+                    if w.get("collocations"):
+                        colloc_clean = w['collocations'].replace("'", "\\'").replace('"', '\\"')
+                        colloc_html = f"<div style='font-size:13px;margin-top:4px;opacity:0.7;'>{colloc_clean}</div>"
+                    st.components.v1.html(f"""
+                    <style>
+                        .rev-{idx} {{
+                            background: #1a1a2e; border-radius: 12px; padding: 20px;
+                            text-align: center; color: #1a1a2e; cursor: pointer;
+                            user-select: none; transition: all 0.3s; border: 2px dashed #555;
+                        }}
+                        .rev-{idx}:hover {{ border-color: #f0c040; }}
+                        .rev-{idx}.show {{
+                            background: #f8f9fa; color: #333; border-color: #667eea;
+                            cursor: default;
+                        }}
+                    </style>
+                    <div class="rev-{idx}" id="rev-{idx}" onclick="this.classList.toggle('show')">
+                        <div style="font-size:28px;font-weight:700;">{clean_word}</div>
+                        <div style="font-size:16px;margin-top:4px;">{w['phonetic']}</div>
+                        <div style="font-size:16px;margin-top:8px;">{w['meaning']}</div>
+                        {colloc_html}
+                        <div style="font-size:12px;margin-top:8px;">级别: {w['level'].upper()} | 词频: {w['frequency']}</div>
+                    </div>
+                    <div style="text-align:center;font-size:12px;color:#888;margin-top:4px;">👆 点击卡片显示内容</div>
+                    """, height=170)
                     speak_button(w['word'], key_suffix=f"browse_{idx}")
+
+                else:  # 全部显示
+                    col1, col2 = st.columns([3, 1])
+                    with col1:
+                        st.markdown(f"### {w['word']}")
+                        st.markdown(f"**音标**: {w['phonetic']}")
+                        st.markdown(f"**释义**: {w['meaning']}")
+                        if w.get("collocations"):
+                            st.markdown(f"**搭配**: {w['collocations']}")
+                        st.caption(f"级别: {w['level'].upper()} | 词频: {w['frequency']}")
+                    with col2:
+                        speak_button(w['word'], key_suffix=f"browse_{idx}")
 
 # =============================================================
 # TAB 2: Quiz Mode
@@ -466,13 +658,23 @@ with tab2:
                     <script>
                         (function() {{
                             var u = new SpeechSynthesisUtterance('{clean_word}');
-                            u.lang = 'en-US'; u.rate = 0.8;
+                            u.lang = 'en-US'; u.rate = 0.7; u.pitch = 1.05;
+                            var voices = speechSynthesis.getVoices();
+                            var fem = voices.find(function(v) {{
+                                return v.lang.startsWith('en') && (
+                                    v.name.indexOf('Female')>=0 || v.name.indexOf('Samantha')>=0 ||
+                                    v.name.indexOf('Karen')>=0 || v.name.indexOf('Susan')>=0 ||
+                                    v.name.indexOf('Moira')>=0 || v.name.indexOf('Victoria')>=0);
+                            }}) || voices.find(function(v) {{ return v.lang.startsWith('en-US'); }});
+                            if (fem) u.voice = fem;
                             speechSynthesis.cancel();
                             speechSynthesis.speak(u);
-                            // Speak again on click
                             document.getElementById('hidden-word').addEventListener('click', function() {{
                                 speechSynthesis.cancel();
-                                speechSynthesis.speak(new SpeechSynthesisUtterance('{clean_word}'));
+                                var u2 = new SpeechSynthesisUtterance('{clean_word}');
+                                u2.lang = 'en-US'; u2.rate = 0.7; u2.pitch = 1.05;
+                                if (fem) u2.voice = fem;
+                                speechSynthesis.speak(u2);
                             }});
                         }})();
                     </script>
