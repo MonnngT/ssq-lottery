@@ -33,6 +33,7 @@ def _scrape_500com(start: str, end: str | None) -> list[Draw]:
     logger.info("Fetching from 500.com: %s", url)
 
     resp = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=30)
+    resp.raise_for_status()
     resp.encoding = "gb2312"
 
     soup = BeautifulSoup(resp.text, "lxml")
@@ -109,6 +110,7 @@ def _scrape_cwlgovcn(page_size: int = 100) -> list[Draw]:
         )
         try:
             resp = session.get(url, timeout=15)
+            resp.raise_for_status()
             data = resp.json()
             items = data.get("result", [])
             if not items:
@@ -126,7 +128,8 @@ def _scrape_cwlgovcn(page_size: int = 100) -> list[Draw]:
                 blue = int(blue_str)
                 draws.append(Draw(issue=code, date=date_str, reds=reds, blue=blue))
             time.sleep(0.3)
-        except Exception:
+        except Exception as exc:
+            logger.warning("cwl.gov.cn page %s fetch failed: %s", page + 1, exc)
             break
 
     logger.info("Fetched %d draws from cwl.gov.cn", len(draws))

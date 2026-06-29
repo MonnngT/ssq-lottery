@@ -1,7 +1,11 @@
 """Flask web interface for 双色球 analysis and prediction."""
 
-import json
-from flask import Flask, request, render_template_string
+from flask import Flask, jsonify, request, render_template_string
+
+try:
+    from .predictor import STRATEGIES
+except ImportError:
+    from predictor import STRATEGIES
 
 app = Flask(__name__)
 
@@ -172,7 +176,17 @@ def index():
 @app.route("/api/predict")
 def api_predict():
     strategy = request.args.get("strategy", "balanced")
-    count = int(request.args.get("count", 5))
+    if strategy not in STRATEGIES:
+        return jsonify({"error": f"Unknown strategy: {strategy}"}), 400
+
+    try:
+        count = int(request.args.get("count", 5))
+    except (TypeError, ValueError):
+        return jsonify({"error": "count must be an integer"}), 400
+
+    if not 1 <= count <= 10:
+        return jsonify({"error": "count must be between 1 and 10"}), 400
+
     draws = _fetch_draws()
     predictions = _generate(draws, strategy_name=strategy, count=count)
 

@@ -1,10 +1,13 @@
 """Local JSON cache for historical lottery data."""
 
 import json
+import logging
 import os
 import time
 from pathlib import Path
 from .models import Draw, RedBalls
+
+logger = logging.getLogger(__name__)
 
 
 def _get_cache_dir() -> Path:
@@ -31,12 +34,20 @@ def load_draws(filepath: Path = None) -> list[Draw]:
         filepath = get_cache_path()
     if not filepath.exists():
         return []
-    with open(filepath, "r", encoding="utf-8") as f:
-        raw = json.load(f)
+    try:
+        with open(filepath, "r", encoding="utf-8") as f:
+            raw = json.load(f)
+    except (OSError, json.JSONDecodeError) as exc:
+        logger.warning("Ignoring unreadable lottery cache %s: %s", filepath, exc)
+        return []
+
     draws = []
-    for item in raw["draws"]:
-        reds = tuple(sorted(item["reds"]))
-        draws.append(Draw(issue=item["issue"], date=item["date"], reds=reds, blue=item["blue"]))
+    for item in raw.get("draws", []):
+        try:
+            reds = tuple(sorted(item["reds"]))
+            draws.append(Draw(issue=item["issue"], date=item["date"], reds=reds, blue=item["blue"]))
+        except (AssertionError, KeyError, TypeError, ValueError) as exc:
+            logger.warning("Skipping invalid cached draw %r: %s", item, exc)
     return draws
 
 
